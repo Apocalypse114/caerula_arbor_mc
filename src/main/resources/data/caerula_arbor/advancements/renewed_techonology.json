@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:iberia_gear"
+    },
+    "title": {
+      "translate": "advancements.renewed_techonology.title"
+    },
+    "description": {
+      "translate": "advancements.renewed_techonology.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "renewed_techonology_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:iberia_gear"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "caerula_arbor:iberia_machine",
+      "caerula_arbor:iberia_cpu"
+    ]
+  },
+  "parent": "caerula_arbor:lifetime_employment"
+}

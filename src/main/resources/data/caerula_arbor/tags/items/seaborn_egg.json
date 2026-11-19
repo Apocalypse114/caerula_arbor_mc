@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:fake_egg",
+    "caerula_arbor:real_egg",
+    "caerula_arbor:base_egg",
+    "caerula_arbor:nethersea_sniffer_egg",
+    "caerula_arbor:stone_cutter_egg",
+    "caerula_arbor:pet_reaper_egg",
+    "caerula_arbor:pet_creeper_egg",
+    "caerula_arbor:drifter_ball"
+  ]
+}

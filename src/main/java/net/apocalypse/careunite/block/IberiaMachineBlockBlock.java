@@ -1,0 +1,32 @@
+
+package net.apocalypse.careunite.block;
+
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.network.chat.Component;
+import net.minecraft.core.BlockPos;
+
+import java.util.List;
+
+public class IberiaMachineBlockBlock extends Block {
+	public IberiaMachineBlockBlock() {
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(4f, 32f).requiresCorrectToolForDrops());
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
+		list.add(Component.translatable("block.caerula_arbor_reunite.iberia_machine_block.description_0"));
+		list.add(Component.translatable("block.caerula_arbor_reunite.iberia_machine_block.description_1"));
+	}
+
+	@Override
+	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
+		return 15;
+	}
+}

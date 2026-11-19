@@ -1,0 +1,57 @@
+{
+  "name": "如何变强",
+  "icon": "caerula_arbor:redstone_iris_flower",
+  "category": "caerula_arbor:tutorial",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "title": "我打不过！",
+      "text": "你可能发现海嗣会逐渐变强，这是因为它们在进化！$(br)可以事先查看教程书中关于进化的条目。$(br)为了跟上海嗣进化的脚步，你可以通过以下方法使自己变强。"
+    },
+    {
+      "type": "spotlight",
+      "title": "收集装备",
+      "item": "caerula_arbor:ocean_chitin",
+      "scale": 1,
+      "text": "深海几丁质是可以从海嗣身上获取的强大材料，可用于制作几丁质乃至复合几丁质装备。这些装备可以用于与大部分海嗣抗衡。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "caerula_arbor:craft_chitin_ingot",
+      "recipe2":"caerula_arbor:craft_complexchitin"
+    },
+    {
+      "type": "spotlight",
+      "title": "收集装备",
+      "item": "caerula_arbor:trailrite",
+      "scale": 1,
+      "text": "狱海合金是打破了水火相容悖论得到的材料，极为强大，是模组最强的材料。$(br)然而，想要获得它，需要击败寂海枯灵等极为强大的Boss，需要大量的努力。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "caerula_arbor:core_made",
+      "recipe2":"caerula_arbor:craft_trailrite"
+    },
+    {
+      "type": "spotlight",
+      "title": "收藏品",
+      "item": "caerula_arbor:relic_crown",
+      "scale": 1,
+      "text": "收藏品是具有特殊效果的道具。一般可通过精英、领袖海嗣掉落或诡意行商交易获得。$(br)探索中，也请留意盐风聚落、战舰残骸、沉浸厅堂等模组结构，里面会含有极为强大的收藏品，强大到足以扭转局面。"
+    },
+    {
+      "type": "relations",
+      "title": "相关链接",
+      "text": "本条目提到的其它概念链接如上",
+      "entries": [
+        "caerula_arbor:lead_in/evolution",
+        "caerula_arbor:mod_items/ocean_template",
+        "caerula_arbor:lead_in/relics",
+        "caerula_arbor:tutorial/block_convert",
+        "caerula_arbor:mod_bosses/wither"
+      ]
+    }
+  ]
+}

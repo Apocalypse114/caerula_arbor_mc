@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:cooked_peduncle"
+    },
+    "b": {
+      "item": "caerula_arbor:nethersea_rice"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:peduncle_rice",
+    "count": 1
+  }
+}

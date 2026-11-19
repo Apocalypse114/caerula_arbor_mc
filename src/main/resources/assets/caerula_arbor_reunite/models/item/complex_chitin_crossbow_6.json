@@ -1,0 +1,6 @@
+{
+  "parent": "caerula_arbor:item/complex_chitin_crossbow",
+  "textures": {
+    "layer0": "caerula_arbor:item/complex_chitin_crossbow_bomb"
+  }
+}

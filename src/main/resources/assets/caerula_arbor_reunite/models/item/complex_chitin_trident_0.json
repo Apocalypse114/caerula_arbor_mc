@@ -1,0 +1,7 @@
+{
+  "parent": "caerula_arbor:custom/chitin_trident_in_hand",
+  "textures": {
+    "0": "caerula_arbor:block/trident_complex_chitin",
+    "particle": "caerula_arbor:item/complex_chitin_trident"
+  }
+}

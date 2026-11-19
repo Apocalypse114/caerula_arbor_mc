@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:aegir_bolt"
+    },
+    "b": {
+      "item": "minecraft:decorated_pot"
+    },
+    "c": {
+      "item": "caerula_arbor:alchemy_prismarine"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:pelagic_homage_vase",
+    "count": 1
+  }
+}

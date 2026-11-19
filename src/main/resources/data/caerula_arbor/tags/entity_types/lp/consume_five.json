@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "warden",
+    "wither",
+    "caerula_arbor:lingering_pathshaper",
+    "caerula_arbor:route_shaper",
+    "caerula_arbor:tide_bishop",
+    "caerula_arbor:tide_chimera",
+    "caerula_arbor:tide_deathrepeller",
+    "caerula_arbor:bishop_fish",
+    "caerula_arbor:martus",
+    "caerula_arbor:endspeaker_2",
+    "caerula_arbor:endspeaker_3"
+  ]
+}

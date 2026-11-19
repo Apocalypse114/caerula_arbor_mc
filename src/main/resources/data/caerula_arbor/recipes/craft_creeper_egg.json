@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:base_egg"
+    },
+    {
+      "item": "caerula_arbor:dna_creeper"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:pet_creeper_egg",
+    "count": 1
+  }
+}

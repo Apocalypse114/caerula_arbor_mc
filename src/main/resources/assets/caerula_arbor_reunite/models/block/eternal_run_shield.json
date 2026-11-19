@@ -1,0 +1,9 @@
+{
+  "parent": "caerula_arbor:custom/eternal_run",
+  "textures": {
+    "all": "caerula_arbor:block/eternal_run",
+    "particle": "caerula_arbor:block/eternal_run",
+    "0": "caerula_arbor:block/eternal_run"
+  },
+  "render_type": "cutout"
+}

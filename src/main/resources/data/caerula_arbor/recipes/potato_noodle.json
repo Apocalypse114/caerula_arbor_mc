@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:mashed_nethersea_potato"
+    },
+    {
+      "item": "caerula_arbor:penduncle_noodle"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:potato_noodle",
+    "count": 1
+  }
+}

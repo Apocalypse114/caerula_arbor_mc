@@ -1,0 +1,56 @@
+{
+  "name": "安德理奈，“序章”",
+  "icon": "caerula_arbor:enderina_spawner",
+  "category": "caerula_arbor:mod_bosses",
+  "read_by_default": true,
+  "sortnum": 26,
+  "pages": [
+    {
+      "type": "image",
+      "title": "安德理奈，“序章”",  
+      "border": true,
+      "images": [
+        "caerula_arbor:patchouli_books/image_sets/enderina.png"
+      ],
+      "text": "$(o)那龙的世代漫入大海的子嗣，造就了新的初生。$()"
+    },
+    {
+      "type": "text",
+      "title": "召唤",
+      "text": "在序章完备集附近放置四个受潮的末地水晶。位置没有要求。"
+    },
+    {
+      "type": "text",
+      "title": "安德理奈，“序章”",
+      "text": " · 生理耐受：不朽$(br) · 进攻强度：天灾$(br) · 机动：优良$(br) · 物种特性：生命值归零后不死亡，而是回到半血并进入复活状态。复活状态下不攻击或移动，不断落下龙息，额外召唤水晶，并能吞噬水晶为自己恢复生命，回满生命或持续一段时间后回到正常状态$(br)复活状态期间将其击败才会死亡。"
+    },
+    {
+      "type": "text",
+      "title": "",
+      "text": "不断召唤水晶，为自己恢复生命。受到的伤害越高，对其减免幅度越大。$(br)发射弹幕进行攻击，弹幕不会被方块阻挡且会进行追踪，命中后爆炸造成范围伤害。$(br) · 物种技能：$(br)【宣告起点】技能期间无敌，发射大量弹幕。"
+    },
+    {
+      "type": "text",
+      "title": "安德理奈的水晶",
+      "text": "环绕安德理奈，若对方处于复活状态，则主动向其靠近。$(br)击碎后爆炸，若安德理奈为复活状态，使其损失大量生命，否则改为治疗。"
+    },
+    {
+      "type": "text",
+      "title": "击杀建议",
+      "text": "若具有较高的法术耐受，则可以无视她的大部分攻击。$(br)注意及时清理水晶，推荐使用有群攻或传导能力的武器，以兼顾水晶和本体。$(br2)$(c)若击杀的伤害来源有源且不属于模组人类阵营，或使用了非常规的击杀方式，可能导致她进入大幅加强的特殊形态。"
+    },
+    {
+      "type": "crafting",
+      "recipe":"caerula_arbor:craft_enderina_core",
+      "recipe2":"caerula_arbor:moist_crystal"
+    },
+    {
+      "type": "relations",
+      "title": "相关链接",
+      "text": "本条目提到的其它概念链接如上",
+      "entries": [
+        "caerula_arbor:mod_items/dragon_brand"
+      ]
+    }
+  ]
+}

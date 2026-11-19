@@ -1,0 +1,9 @@
+{
+  "parent": "caerula_arbor:custom/open_sea_remain",
+  "textures": {
+    "all": "caerula_arbor:block/open_sea_remain",
+    "particle": "caerula_arbor:block/open_sea_remain",
+    "0": "caerula_arbor:block/open_sea_remain"
+  },
+  "render_type": "cutout"
+}

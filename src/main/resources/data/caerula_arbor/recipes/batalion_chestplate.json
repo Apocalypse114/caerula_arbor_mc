@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "caerula_arbor:inquisition_template"
+  },
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "addition": {
+    "item": "caerula_arbor:ocean_crystal"
+  },
+  "result": {
+    "item": "caerula_arbor:batalion_armor_chestplate"
+  }
+}

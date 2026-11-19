@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:aegir_bolt"
+    },
+    "b": {
+      "item": "caerula_arbor:alchemy_prismarine"
+    },
+    "c": {
+      "item": "caerula_arbor:chitin_shield"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:eternal_run_shield",
+    "count": 1
+  }
+}

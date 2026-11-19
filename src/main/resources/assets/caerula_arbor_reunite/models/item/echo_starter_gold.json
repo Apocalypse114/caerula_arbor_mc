@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "caerula_arbor:item/echo_starter_gold"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "caerula_arbor:echo_starter_gold_dim": 1
+      },
+      "model": "caerula_arbor:item/echo_starter_gold_0"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:adv_item_evolution"
+    },
+    "title": {
+      "translate": "advancements.hymn_of_land.title"
+    },
+    "description": {
+      "translate": "advancements.hymn_of_land.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "hymn_of_land_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 32
+  },
+  "parent": "caerula_arbor:she_coming"
+}

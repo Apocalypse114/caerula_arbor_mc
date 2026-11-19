@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:sea_trail_solid",
+    "caerula_arbor:trail_pulse",
+    "caerula_arbor:heteropic_block",
+    "caerula_arbor:nethersea_emerald_block",
+    "minecraft:emerald_block",
+    "minecraft:diamond_block",
+    "caerula_arbor:nethersea_soul_sand",
+    "minecraft:gold_block",
+    "minecraft:ochre_froglight",
+    "minecraft:verdant_froglight",
+    "minecraft:pearlescent_froglight",
+    "caerula_arbor:ocean_ovary",
+    "caerula_arbor:red_ovary",
+    "minecraft:amethyst_block"
+  ]
+}

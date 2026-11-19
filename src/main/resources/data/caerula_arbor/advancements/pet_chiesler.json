@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:stone_cutter_egg"
+    },
+    "title": {
+      "translate": "advancements.pet_chiesler.title"
+    },
+    "description": {
+      "translate": "advancements.pet_chiesler.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pet_chiesler_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:stone_cutter_egg"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "caerula_arbor:genetic_eng"
+}

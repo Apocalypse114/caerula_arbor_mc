@@ -1,0 +1,6 @@
+{
+  "parent": "item/crossbow",
+  "textures": {
+    "layer0": "caerula_arbor:item/chitin_crossbow_2"
+  }
+}

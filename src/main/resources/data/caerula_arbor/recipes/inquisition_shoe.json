@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "caerula_arbor:inquisition_template"
+  },
+  "base": {
+    "item": "caerula_arbor:batalion_armor_boots"
+  },
+  "addition": {
+    "tag": "minecraft:wool"
+  },
+  "result": {
+    "item": "caerula_arbor:inquisition_suit_boots"
+  }
+}

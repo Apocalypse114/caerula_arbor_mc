@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:alchemy_base_block"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:alchemy_base_item",
+    "count": 4
+  }
+}

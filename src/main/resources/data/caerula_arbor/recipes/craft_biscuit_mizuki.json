@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:chitin_cookie_done"
+    },
+    {
+      "item": "caerula_arbor:chitin_cookie_done"
+    },
+    {
+      "item": "caerula_arbor:colourfull_jelly"
+    },
+    {
+      "item": "caerula_arbor:colourfull_jelly"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:mizuki_biscuit",
+    "count": 1
+  }
+}

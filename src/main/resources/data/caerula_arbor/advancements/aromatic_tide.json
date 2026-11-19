@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:nethersea_sniffer_egg_cooked"
+    },
+    "title": {
+      "translate": "advancements.aromatic_tide.title"
+    },
+    "description": {
+      "translate": "advancements.aromatic_tide.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aromatic_tide_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:nethersea_sniffer_egg_cooked"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "caerula_arbor:abnormal_tide"
+}

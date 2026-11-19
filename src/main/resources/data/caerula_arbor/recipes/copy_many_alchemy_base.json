@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:colourfull_jelly"
+    },
+    {
+      "item": "caerula_arbor:cell_cluster"
+    },
+    {
+      "tag": "caerula_arbor:seaborn_egg"
+    },
+    {
+      "item": "caerula_arbor:heteropic_piece"
+    },
+    {
+      "item": "caerula_arbor:alchemy_base_item"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:alchemy_base_item",
+    "count": 4
+  }
+}

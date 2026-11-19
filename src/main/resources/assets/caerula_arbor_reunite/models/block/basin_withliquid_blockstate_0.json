@@ -1,0 +1,10 @@
+{
+  "parent": "caerula_arbor:custom/magnificent_art_basin",
+  "textures": {
+    "all": "caerula_arbor:block/magnificent_art_basin",
+    "particle": "caerula_arbor:block/magnificent_art_basin",
+    "pot": "caerula_arbor:block/magnificent_art_basin",
+    "water": "caerula_arbor:block/waterflow"
+  },
+  "render_type": "cutout"
+}

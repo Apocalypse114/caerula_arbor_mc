@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:nethersea_powder_square"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:trail_powder",
+    "count": 9
+  }
+}

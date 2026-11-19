@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:idv_izumik"
+    },
+    "title": {
+      "translate": "advancements.fifth_touch.title"
+    },
+    "description": {
+      "translate": "advancements.fifth_touch.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fifth_touch_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "caerula_arbor:gain_mizuki_doll"
+}

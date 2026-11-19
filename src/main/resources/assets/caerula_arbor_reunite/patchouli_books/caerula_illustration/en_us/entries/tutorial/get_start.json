@@ -1,0 +1,45 @@
+{
+  "name": "如何开始",
+  "icon": "caerula_arbor:caerula_recorder",
+  "category": "caerula_arbor:tutorial",
+  "read_by_default": true,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "初期工作",
+      "item": "caerula_arbor:ocean_cutin",
+      "scale": 1,
+      "text": "为了查看模组各项机制的信息，你需要制作一个深蓝记录仪。$(br)深蓝记录仪制作所需的角素玻璃板由深海角素制成，深海角素可以从囊海爬行者身上取得，或在部分模组结构中寻得。$(br)接下来需要翻页。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "caerula_arbor:craft_cutin_pane",
+      "recipe2":"caerula_arbor:caerula_rec"
+    },
+    {
+      "type": "spotlight",
+      "title": "初期工作",
+      "item": "caerula_arbor:block_recorder",
+      "scale": 1,
+      "text": "深蓝终端是深蓝记录仪的方块形式，可以通过合成互相转化。右键深蓝终端也可查看其UI。$(br)深蓝终端可能在部分结构中出现。$(br)深蓝终端可作为诡意行商村民的工作方块。"
+    },
+    {
+      "type": "text",
+      "title": "需要注意的机制",
+      "text": "请确保您了解了$(a)目标生命$()、$(1)神经损伤$()、$(6)灯火$()、$(c)大群的呼唤$()、$(d)排异反应$()机制，因为它们可能在游戏前期便遇到或生效。$(br)可以在下一页的相关链接跳转。"
+    },
+    {
+      "type": "relations",
+      "title": "相关链接",
+      "text": "本条目提到的其它概念链接如上",
+      "entries": [
+        "caerula_arbor:mod_items/caerula_recorder",
+        "caerula_arbor:lead_in/life_point",
+        "caerula_arbor:lead_in/nervous_density",
+        "caerula_arbor:lead_in/call_of_wemany",
+        "caerula_arbor:lead_in/rejections"
+      ]
+    }
+  ]
+}

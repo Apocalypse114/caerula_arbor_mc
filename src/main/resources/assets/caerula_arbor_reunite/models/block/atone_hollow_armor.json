@@ -1,0 +1,9 @@
+{
+  "parent": "caerula_arbor:custom/empty_armor_1",
+  "textures": {
+    "all": "caerula_arbor:block/atone_hollow_armor",
+    "particle": "caerula_arbor:block/atone_hollow_armor",
+    "1": "caerula_arbor:block/atone_hollow_armor"
+  },
+  "render_type": "cutout"
+}

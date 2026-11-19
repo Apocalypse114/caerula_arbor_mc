@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:hyper_alchemy_base"
+    },
+    {
+      "tag": "caerula_arbor:moist_item"
+    },
+    {
+      "item": "caerula_arbor:hyper_alchemy_base"
+    },
+    {
+      "item": "caerula_arbor:targeted_base"
+    },
+    {
+      "item": "caerula_arbor:cell_cluster"
+    },
+    {
+      "item": "caerula_arbor:targeted_base"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:targeted_base",
+    "count": 3
+  }
+}

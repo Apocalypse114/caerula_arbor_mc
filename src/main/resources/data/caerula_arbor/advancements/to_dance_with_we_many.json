@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:nethersea_stew"
+    },
+    "title": {
+      "translate": "advancements.to_dance_with_we_many.title"
+    },
+    "description": {
+      "translate": "advancements.to_dance_with_we_many.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "to_dance_with_we_many_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 4
+  },
+  "parent": "caerula_arbor:to_we_many"
+}

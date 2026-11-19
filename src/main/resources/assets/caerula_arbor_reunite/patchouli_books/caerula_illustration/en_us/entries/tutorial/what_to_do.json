@@ -1,0 +1,30 @@
+{
+  "name": "游戏目标",
+  "icon": "caerula_arbor:golden_chalise",
+  "category": "caerula_arbor:tutorial",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "探索",
+      "item": "caerula_arbor:tide_bishop_core",
+      "scale": 1,
+      "text": "模组添加了诸多结构，有着丰富的战利品，惊心动魄的挑战和神秘的小巧思。可以配合结构指南针模组来探索。"
+    },
+    {
+      "type": "spotlight",
+      "title": "战斗",
+      "item": "caerula_arbor:iron_sword_of_knight_corpus",
+      "scale": 1,
+      "text": "模组添加了大量海嗣及其衍生物，以及许多海嗣Boss。Boss大多在结构中，可以在本书中寻得这些Boss的所在与信息。$(br)书中列出的顺序可作为Boss挑战顺序的参考。"
+    },
+    {
+      "type": "spotlight",
+      "title": "娱乐",
+      "item": "caerula_arbor:seaborn_flower",
+      "scale": 1,
+      "text": "模组添加了诸多食物、玩具和装饰品。闲暇时可以开垦荒地，装点家园。$(br)也可以发展科技，驯化部分种类的海嗣。"
+    }
+  ]
+}

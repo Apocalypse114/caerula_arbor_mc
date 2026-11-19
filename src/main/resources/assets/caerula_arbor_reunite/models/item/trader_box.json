@@ -1,0 +1,7 @@
+{
+  "parent": "caerula_arbor:custom/trader_box",
+  "textures": {
+    "0": "caerula_arbor:block/trader_box",
+    "particle": "caerula_arbor:item/boxcoffee"
+  }
+}

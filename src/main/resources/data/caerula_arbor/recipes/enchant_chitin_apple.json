@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:heteropic_piece"
+    },
+    {
+      "item": "caerula_arbor:heteropic_piece"
+    },
+    {
+      "item": "caerula_arbor:heteropic_piece"
+    },
+    {
+      "item": "caerula_arbor:heteropic_piece"
+    },
+    {
+      "item": "caerula_arbor:chitin_apple"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:enchanted_chitin_apple",
+    "count": 1
+  }
+}

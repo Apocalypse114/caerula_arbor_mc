@@ -1,0 +1,11 @@
+{
+  "parent": "block/composter",
+  "textures": {
+    "particle": "caerula_arbor:block/censer_side",
+    "top": "caerula_arbor:block/censer_top",
+    "bottom": "caerula_arbor:block/censer_bottom",
+    "side": "caerula_arbor:block/censer_side",
+    "inside": "caerula_arbor:block/censer_bottom"
+  },
+  "render_type": "cutout"
+}

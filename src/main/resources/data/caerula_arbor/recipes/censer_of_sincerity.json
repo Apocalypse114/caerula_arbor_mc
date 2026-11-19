@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:aegir_bolt"
+    },
+    "b": {
+      "item": "caerula_arbor:alchemy_prismarine"
+    },
+    "c": {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:censer_of_sincerity",
+    "count": 1
+  }
+}

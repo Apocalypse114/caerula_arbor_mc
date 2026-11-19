@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "caerula_arbor:nethersea_baked_potato"
+    },
+    {
+      "item": "caerula_arbor:fluore_berries"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:mashed_nethersea_potato",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "caerula_arbor:inquisition_template"
+  },
+  "base": {
+    "item": "caerula_arbor:inquisition_suit_chestplate"
+  },
+  "addition": {
+    "item": "caerula_arbor:phloem_block"
+  },
+  "result": {
+    "item": "caerula_arbor:inquisition_armor_chestplate"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "caerula_arbor:nethersea_tinter"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:nethersea_potato",
+    "count": 1
+  }
+}

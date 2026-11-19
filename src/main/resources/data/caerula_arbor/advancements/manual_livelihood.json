@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:reinforced_injector"
+    },
+    "title": {
+      "translate": "advancements.manual_livelihood.title"
+    },
+    "description": {
+      "translate": "advancements.manual_livelihood.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual_livelihood_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "caerula_arbor:macro_control"
+}

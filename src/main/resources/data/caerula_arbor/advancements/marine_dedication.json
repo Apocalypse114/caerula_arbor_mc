@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:complex_chitin_hoe"
+    },
+    "title": {
+      "translate": "advancements.marine_dedication.title"
+    },
+    "description": {
+      "translate": "advancements.marine_dedication.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "marine_dedication_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:complex_chitin_hoe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 32,
+    "recipes": [
+      "caerula_arbor:seed_vivi_lily",
+      "caerula_arbor:nethersea_potato",
+      "caerula_arbor:nethersea_wheat"
+    ]
+  },
+  "parent": "caerula_arbor:enthusiast_of_chitin"
+}

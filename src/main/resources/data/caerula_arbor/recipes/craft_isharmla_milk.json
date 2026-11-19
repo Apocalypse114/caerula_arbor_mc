@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:nethersea_milk"
+    },
+    {
+      "item": "caerula_arbor:oceanglass_cup"
+    },
+    {
+      "item": "caerula_arbor:oceanglass_cup"
+    },
+    {
+      "item": "caerula_arbor:oceanglass_cup"
+    },
+    {
+      "item": "caerula_arbor:oceanglass_cup"
+    },
+    {
+      "item": "caerula_arbor:tear_isharmla"
+    },
+    {
+      "item": "caerula_arbor:tear_isharmla"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:isahrmla_milk",
+    "count": 4
+  }
+}

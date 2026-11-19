@@ -1,0 +1,231 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.slider_ball",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "stem",
+					"pivot": [0, 4, 0],
+					"cubes": [
+						{"origin": [-2, -0.5, -2], "size": [4, 3, 4], "inflate": -0.5, "pivot": [0, 1.25, 0], "rotation": [0, -45, 0], "uv": [0, 8]}
+					]
+				},
+				{
+					"name": "peduncle",
+					"parent": "stem",
+					"pivot": [-0.5, 0.25, -1.1],
+					"rotation": [-102.5, 45, 0],
+					"cubes": [
+						{"origin": [-1.5, -2.5, -1.6], "size": [2, 3, 1], "pivot": [-0.5, -1, -1.1], "rotation": [0, 0, -180], "uv": [16, 0]}
+					]
+				},
+				{
+					"name": "subdun",
+					"parent": "peduncle",
+					"pivot": [-0.5, -2.75, -1.1],
+					"rotation": [-55, 0, 15],
+					"cubes": [
+						{"origin": [-1.5, -5.5, -1.6], "size": [2, 3, 1], "uv": [22, 0]}
+					]
+				},
+				{
+					"name": "peduncle2",
+					"parent": "stem",
+					"pivot": [0.56382, 0, -0.39479],
+					"rotation": [-97.5, -35, 0],
+					"cubes": [
+						{"origin": [0.06382, -2.75, -0.89479], "size": [1, 3, 1], "uv": [16, 4]}
+					]
+				},
+				{
+					"name": "sundun",
+					"parent": "peduncle2",
+					"pivot": [0.56382, -3, -0.39479],
+					"rotation": [-32.5, 0, -15],
+					"cubes": [
+						{"origin": [0.06382, -5.75, -0.89479], "size": [1, 3, 1], "uv": [20, 4]}
+					]
+				},
+				{
+					"name": "peduncle3",
+					"parent": "stem",
+					"pivot": [-0.5, 0.25, 0.9],
+					"rotation": [90, 50, 0],
+					"cubes": [
+						{"origin": [-1.5, -2.5, 0.4], "size": [2, 3, 1], "pivot": [-0.5, -1, 0.9], "rotation": [0, 0, -180], "uv": [16, 0]}
+					]
+				},
+				{
+					"name": "subdun2",
+					"parent": "peduncle3",
+					"pivot": [-0.5, -2.75, 0.9],
+					"rotation": [37.5, 0, -15],
+					"cubes": [
+						{"origin": [-1.5, -5.5, 0.4], "size": [2, 3, 1], "uv": [22, 0]}
+					]
+				},
+				{
+					"name": "peduncle4",
+					"parent": "stem",
+					"pivot": [-1.43618, 0, -0.39479],
+					"rotation": [75, 20, 180],
+					"cubes": [
+						{"origin": [-1.93618, -2.75, -0.89479], "size": [1, 3, 1], "uv": [16, 4]}
+					]
+				},
+				{
+					"name": "sundun2",
+					"parent": "peduncle4",
+					"pivot": [-1.43618, -3, -0.39479],
+					"rotation": [-12.5, 0, 15],
+					"cubes": [
+						{"origin": [-1.93618, -5.75, -0.89479], "size": [1, 3, 1], "uv": [20, 4]}
+					]
+				},
+				{
+					"name": "peduncle6",
+					"parent": "stem",
+					"pivot": [0.80163, 1, 0.04714],
+					"rotation": [83.67298, -48.24669, 160.06289],
+					"cubes": [
+						{"origin": [0.30163, -1.8147, -0.45286], "size": [1, 3, 1], "uv": [16, 4]}
+					]
+				},
+				{
+					"name": "sundun4",
+					"parent": "peduncle6",
+					"pivot": [0.80163, -2.0647, 0.04714],
+					"rotation": [-41.98174, -9.93191, -18.73499],
+					"cubes": [
+						{"origin": [0.30163, -4.8147, -0.45286], "size": [1, 3, 1], "uv": [20, 4]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "stem",
+					"pivot": [0, 2, 0.25],
+					"rotation": [7.5, 0, 0],
+					"cubes": [
+						{"origin": [-2, 3, -2.75], "size": [4, 4, 2], "pivot": [1, 3, -1.75], "rotation": [-90, 0, 0], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "petal",
+					"parent": "head",
+					"pivot": [1.87612, 2.63268, 0.25],
+					"rotation": [0, -90, 22.5],
+					"cubes": [
+						{"origin": [0.87612, 2.38268, -0.75], "size": [2, 3, 1], "uv": [16, 0]}
+					]
+				},
+				{
+					"name": "subpet",
+					"parent": "petal",
+					"pivot": [1.87612, 5.38268, -0.25],
+					"rotation": [-7.5, 0, 0],
+					"cubes": [
+						{"origin": [0.87612, 5.38268, -0.75], "size": [2, 3, 1], "pivot": [1.87612, 5.63268, -0.25], "rotation": [-35, 0, 0], "uv": [22, 0]}
+					]
+				},
+				{
+					"name": "petal2",
+					"parent": "head",
+					"pivot": [1.18806, 2.63268, 1.8999],
+					"rotation": [-150, -30, 180],
+					"cubes": [
+						{"origin": [0.18806, 2.38268, 0.8999], "size": [2, 3, 1], "uv": [16, 0]}
+					]
+				},
+				{
+					"name": "subpet2",
+					"parent": "petal2",
+					"pivot": [1.18806, 5.38268, 1.3999],
+					"rotation": [-22.5, 0, 0],
+					"cubes": [
+						{"origin": [0.18806, 5.38268, 0.8999], "size": [2, 3, 1], "pivot": [1.18806, 5.63268, 1.3999], "rotation": [-35, 0, 0], "uv": [22, 0]}
+					]
+				},
+				{
+					"name": "petal3",
+					"parent": "head",
+					"pivot": [0.98806, 2.63268, -1.5999],
+					"rotation": [30, -30, 0],
+					"cubes": [
+						{"origin": [-0.01194, 2.38268, -2.5999], "size": [2, 3, 1], "uv": [16, 0]}
+					]
+				},
+				{
+					"name": "subpet3",
+					"parent": "petal3",
+					"pivot": [0.98806, 5.38268, -2.0999],
+					"rotation": [-22.5, 0, 0],
+					"cubes": [
+						{"origin": [-0.01194, 5.38268, -2.5999], "size": [2, 3, 1], "pivot": [0.98806, 5.63268, -2.0999], "rotation": [-35, 0, 0], "uv": [22, 0]}
+					]
+				},
+				{
+					"name": "petal4",
+					"parent": "head",
+					"pivot": [-1.87612, 2.63268, 0.25],
+					"rotation": [0, 90, -22.5],
+					"cubes": [
+						{"origin": [-2.87612, 2.38268, -0.75], "size": [2, 3, 1], "uv": [16, 0]}
+					]
+				},
+				{
+					"name": "subpet4",
+					"parent": "petal4",
+					"pivot": [-1.87612, 5.38268, -0.25],
+					"rotation": [-7.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.87612, 5.38268, -0.75], "size": [2, 3, 1], "pivot": [-1.87612, 5.63268, -0.25], "rotation": [-35, 0, 0], "uv": [22, 0]}
+					]
+				},
+				{
+					"name": "petal5",
+					"parent": "head",
+					"pivot": [-1.28806, 2.63268, 1.8999],
+					"rotation": [-150, 30, 180],
+					"cubes": [
+						{"origin": [-2.28806, 2.38268, 0.8999], "size": [2, 3, 1], "uv": [16, 0]}
+					]
+				},
+				{
+					"name": "subpet5",
+					"parent": "petal5",
+					"pivot": [-1.28806, 5.38268, 1.3999],
+					"rotation": [-22.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.28806, 5.38268, 0.8999], "size": [2, 3, 1], "pivot": [-1.28806, 5.63268, 1.3999], "rotation": [-35, 0, 0], "uv": [22, 0]}
+					]
+				},
+				{
+					"name": "petal6",
+					"parent": "head",
+					"pivot": [-1.28806, 2.63268, -1.5999],
+					"rotation": [30, 30, 0],
+					"cubes": [
+						{"origin": [-2.28806, 2.38268, -2.5999], "size": [2, 3, 1], "uv": [16, 0]}
+					]
+				},
+				{
+					"name": "subpet6",
+					"parent": "petal6",
+					"pivot": [-1.28806, 5.38268, -2.0999],
+					"rotation": [-22.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.28806, 5.38268, -2.5999], "size": [2, 3, 1], "pivot": [-1.28806, 5.63268, -2.0999], "rotation": [-35, 0, 0], "uv": [22, 0]}
+					]
+				}
+			]
+		}
+	]
+}

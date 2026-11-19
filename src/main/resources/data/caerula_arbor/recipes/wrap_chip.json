@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:chip_piece"
+    },
+    {
+      "item": "caerula_arbor:chip_piece"
+    },
+    {
+      "item": "caerula_arbor:chip_piece"
+    },
+    {
+      "item": "caerula_arbor:chip_piece"
+    },
+    {
+      "item": "caerula_arbor:chip_piece"
+    },
+    {
+      "item": "caerula_arbor:chip_piece"
+    },
+    {
+      "item": "caerula_arbor:chip_piece"
+    },
+    {
+      "item": "caerula_arbor:chip_piece"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:chip_box",
+    "count": 1
+  }
+}

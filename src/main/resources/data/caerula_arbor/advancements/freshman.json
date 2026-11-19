@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:alchemy_base_item"
+    },
+    "title": {
+      "translate": "advancements.freshman.title"
+    },
+    "description": {
+      "translate": "advancements.freshman.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "freshman_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:alchemy_base_item"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "caerula_arbor:merge_alchemy_base",
+      "caerula_arbor:copy_alchemy_base",
+      "caerula_arbor:copy_many_alchemy_base",
+      "caerula_arbor:alchemist_wand",
+      "caerula_arbor:copy_target_base_alchemy",
+      "caerula_arbor:alchemist_injector",
+      "caerula_arbor:alchemist_extractor",
+      "caerula_arbor:alchemist_reverter",
+      "caerula_arbor:alchemy_prismarine",
+      "caerula_arbor:alchemist_injector_ii",
+      "caerula_arbor:magnificent_art_basin",
+      "caerula_arbor:open_sea_remain_lamp",
+      "caerula_arbor:tame_sea_handbow",
+      "caerula_arbor:eternal_run_shield",
+      "caerula_arbor:desemble_alchemy_base",
+      "caerula_arbor:merge_alchemy_base_block",
+      "caerula_arbor:desemble_alchemy_base_block",
+      "caerula_arbor:alchemist_crafter",
+      "caerula_arbor:pelagic_homage_base",
+      "caerula_arbor:censer_of_sincerity",
+      "caerula_arbor:atone_hollow_armor",
+      "caerula_arbor:master_alchemist_helm",
+      "caerula_arbor:master_alchemist_chestplate",
+      "caerula_arbor:master_alchemist_leggings",
+      "caerula_arbor:master_alchemist_boots"
+    ]
+  },
+  "parent": "caerula_arbor:encounter_from_the_ocean"
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:first_to_talk",
+    "caerula_arbor:compassion_prayer",
+    "caerula_arbor:endspeaker_0",
+    "caerula_arbor:flamarine_golem",
+    "caerula_arbor:saint_carmen",
+    "caerula_arbor:endspeaker_1",
+    "elder_guardian",
+    "caerula_arbor:promoted_elder_guardian"
+  ]
+}

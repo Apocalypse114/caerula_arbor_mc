@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    "bcd",
+    "ef "
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:hyper_alchemy_base"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "item": "minecraft:blaze_rod"
+    },
+    "d": {
+      "item": "caerula_arbor:ocean_crystal"
+    },
+    "e": {
+      "item": "caerula_arbor:cutin_stick"
+    },
+    "f": {
+      "item": "caerula_arbor:nethersea_emerald"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:alchemist_reverter",
+    "count": 1
+  }
+}

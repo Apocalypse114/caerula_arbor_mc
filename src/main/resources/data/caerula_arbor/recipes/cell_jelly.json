@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:ocean_cell"
+    },
+    {
+      "item": "caerula_arbor:ocean_cell"
+    },
+    {
+      "item": "caerula_arbor:ocean_cell"
+    },
+    {
+      "item": "caerula_arbor:ocean_cell"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "caerula_arbor:sea_trail_mor"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:cell_jelly",
+    "count": 2
+  }
+}

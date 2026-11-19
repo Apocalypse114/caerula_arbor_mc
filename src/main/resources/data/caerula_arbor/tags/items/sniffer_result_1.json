@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:trail_powder",
+    "minecraft:gunpowder",
+    "minecraft:blaze_powder"
+  ]
+}

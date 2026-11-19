@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "caerula_arbor:block/ocean_farmland"
+    },
+    "blockstate=1": {
+      "model": "caerula_arbor:block/moist_farmland_blockstate_0"
+    }
+  }
+}

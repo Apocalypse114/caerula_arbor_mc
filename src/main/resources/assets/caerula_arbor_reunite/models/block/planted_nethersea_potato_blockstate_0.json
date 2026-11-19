@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "caerula_arbor:block/nethersea_popato_plant_1",
+    "particle": "caerula_arbor:block/nethersea_popato_plant"
+  },
+  "render_type": "cutout_mipped"
+}

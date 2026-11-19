@@ -1,0 +1,46 @@
+{
+  "name": "觅岸探古兽 ",
+  "icon": "caerula_arbor:oceanized_sniffer_spawn_egg",
+  "category": "caerula_arbor:mod_bosses",
+  "read_by_default": true,
+  "sortnum": 22,
+  "pages": [
+    {
+      "type": "image",
+      "title": "觅岸探古兽",
+      "border": true,
+      "images": [
+        "caerula_arbor:patchouli_books/image_sets/sniffer.png"
+      ],
+      "text": "$(o)嗅探兽蛋在溟痕上孵化而成。$()"
+    },
+    {
+      "type": "text",
+      "title": "召唤",
+      "text": "将嗅探兽蛋置于深蚀的溟痕上，等待一段时间。"
+    },
+    {
+      "type": "text",
+      "title": "觅岸探古兽",
+      "text": " · 生理耐受：标准$(br) · 进攻强度：标准$(br) · 机动：一般$(br) · 物种特性：每损失一定生命值会强制释放一次技能。$(br) · 物种技能：$(br)【掘地三尺】停止攻击并开始挖掘。挖出物品后给予周围的动物同化体海嗣随机增益。$(br)【薪火相传】掷出特殊的嗅探兽蛋。损失一定生命值后蛋的数量增加。"
+    },
+    {
+      "type": "text",
+      "title": "觅岸探古兽蛋",
+      "text": "一段时间后孵化并产生随机强化的动物同化体海嗣，同时治疗最近的觅岸探古兽。$(br)被击破后提前孵化，但得到的生物受到削弱。$(br)有概率使攻击者的攻击失效并获得一层麻痹。"
+    },
+    {
+      "type": "text",
+      "title": "击杀建议",
+      "text": "掉落的蛋可以煮了吃，也可以用营火变回普通的嗅探兽蛋。$(br)也可以选择不击杀，收集它（凭空）挖掘出的物品。"
+    },
+    {
+      "type": "relations",
+      "title": "相关链接",
+      "text": "本条目提到的其它概念链接如上",
+      "entries": [
+        "caerula_arbor:lead_in/nethersea_brand"
+      ]
+    }
+  ]
+}

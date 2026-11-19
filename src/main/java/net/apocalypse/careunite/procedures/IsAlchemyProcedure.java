@@ -1,0 +1,17 @@
+package net.apocalypse.careunite.procedures;
+
+import net.minecraft.world.entity.Entity;
+import net.minecraft.tags.TagKey;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.world.entity.EntityType;
+
+public class IsAlchemyProcedure {
+	public static final TagKey<EntityType<?>> ALC = TagKey.create(Registries.ENTITY_TYPE, new ResourceLocation("caerula_arbor_reunite:alchemy"));
+	
+	public static boolean execute(Entity entity) {
+		if (entity == null)
+			return false;
+		return entity.getType().is(ALC);
+	}
+}

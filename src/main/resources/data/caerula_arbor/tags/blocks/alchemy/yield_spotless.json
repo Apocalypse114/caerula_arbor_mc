@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:redstonium_block",
+    "minecraft:redstone_block",
+    "minecraft:tnt",
+    "minecraft:respawn_anchor",
+    "caerula_arbor:bomb_trailer",
+    "caerula_arbor:bomb_copper",
+    "caerula_arbor:sea_prairie_bomb",
+    "caerula_arbor:kings_armor",
+    "caerula_arbor:block_crown",
+    "caerula_arbor:block_spear",
+    "caerula_arbor:block_extension",
+    "caerula_arbor:block_crystal",
+    "caerula_arbor:block_fate",
+    "caerula_arbor:complex_chitin_block",
+    "minecraft:beacon"
+  ]
+}

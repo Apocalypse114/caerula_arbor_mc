@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "caerula_arbor:golden_age",
+      "weight": 9
+    },
+    {
+      "structure": "caerula_arbor:isharmlacemetry",
+      "weight": 10
+    },
+    {
+      "structure": "caerula_arbor:drilling_platform",
+      "weight": 8
+    },
+    {
+      "structure": "caerula_arbor:aegir_lab",
+      "weight": 10
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 63,
+    "separation": 24,
+    "salt": 357548055
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cde",
+    " bb"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:complex_chitin"
+    },
+    "b": {
+      "item": "caerula_arbor:chitin_ingot"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "d": {
+      "item": "caerula_arbor:alchemy_base_item"
+    },
+    "e": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:alchemist_injector",
+    "count": 1
+  }
+}

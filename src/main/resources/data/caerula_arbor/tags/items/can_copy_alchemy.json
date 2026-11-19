@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:slime_ball",
+    "minecraft:magma_cream",
+    "caerula_arbor:trail_cream",
+    "caerula_arbor:ocean_phloem",
+    "minecraft:ghast_tear"
+  ]
+}

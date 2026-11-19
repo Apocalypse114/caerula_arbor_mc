@@ -1,0 +1,44 @@
+package net.apocalypse.careunite.procedures;
+
+import net.minecraftforge.registries.ForgeRegistries;
+
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.core.BlockPos;
+
+import net.apocalypse.careunite.entity.LastKnightAndHorseEntity;
+import net.apocalypse.careunite.CaerulaArborMod;
+
+public class LastKnightDoHurtTargetProcedure {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
+		if (entity == null || sourceentity == null)
+			return;
+		CaerulaArborMod.queueServerWork(8, () -> {
+			if (sourceentity.isAlive()) {
+				if ((entity != null ? sourceentity.distanceTo(entity) : -1) <= 6) {
+					entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("caerula_arbor_reunite:last_knight_attack"))), sourceentity),
+							(float) ((sourceentity instanceof LivingEntity _livingEntity2 && _livingEntity2.getAttributes().hasAttribute(Attributes.ATTACK_DAMAGE) ? _livingEntity2.getAttribute(Attributes.ATTACK_DAMAGE).getValue() : 0)
+									* (1 + Math.min(sourceentity instanceof LastKnightAndHorseEntity _datEntI ? _datEntI.getEntityData().get(LastKnightAndHorseEntity.DATA_addiiton) : 0, 20) * 0.08)));
+					if (world instanceof Level _level) {
+						if (!_level.isClientSide()) {
+							_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("caerula_arbor_reunite:last_knight_attack")), SoundSource.HOSTILE, 4, 1);
+						} else {
+							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("caerula_arbor_reunite:last_knight_attack")), SoundSource.HOSTILE, 4, 1, false);
+						}
+					}
+					if (sourceentity instanceof LastKnightAndHorseEntity _datEntSetI)
+						_datEntSetI.getEntityData().set(LastKnightAndHorseEntity.DATA_addiiton, 0);
+				}
+			}
+		});
+		return;
+	}
+}

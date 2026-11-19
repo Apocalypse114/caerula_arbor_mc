@@ -1,0 +1,90 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:record_mare_natus"
+    },
+    "title": {
+      "translate": "advancements.combine_with_dark_flow.title"
+    },
+    "description": {
+      "translate": "advancements.combine_with_dark_flow.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "combine_with_dark_flow_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:archive_sal_viento"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    },
+    "combine_with_dark_flow_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:archive_of_tidelink"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    },
+    "combine_with_dark_flow_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:archive_of_martus"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    },
+    "combine_with_dark_flow_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:archive_of_raider"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "caerula_arbor:mere_mare_natus"
+    ]
+  },
+  "parent": "caerula_arbor:kill_martus"
+}

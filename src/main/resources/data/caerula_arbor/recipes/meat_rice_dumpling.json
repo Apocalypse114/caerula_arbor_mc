@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "caerula_arbor:cooked_mor"
+    },
+    {
+      "item": "caerula_arbor:cooked_mor"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:nethersea_rice_dumpling",
+    "count": 1
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "structures": [
+    {
+      "structure": "caerula_arbor:church",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:branded_town",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:safe_house",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:lighthouse",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:believer_home",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:inquisition_outpost",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:rhodes_site",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:watchtower",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:sadness_church",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:sea_nest",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 42,
+    "separation": 12,
+    "salt": 1559158881
+  }
+}

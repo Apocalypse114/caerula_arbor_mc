@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:aegir_bolt"
+    },
+    "b": {
+      "tag": "forge:tools/crossbows"
+    },
+    "c": {
+      "item": "caerula_arbor:alchemy_prismarine"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:tame_sea_handbow",
+    "count": 1
+  }
+}

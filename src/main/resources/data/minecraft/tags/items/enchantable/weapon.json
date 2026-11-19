@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:the_spear",
+    "caerula_arbor:sword_ocean_crystal",
+    "caerula_arbor:chitin_sword",
+    "caerula_arbor:complex_chitin_sword",
+    "caerula_arbor:legendary_spear",
+    "caerula_arbor:wavecleaver",
+    "caerula_arbor:hand_sword",
+    "caerula_arbor:trailed_wooden_sword",
+    "caerula_arbor:trailed_stone_sword",
+    "caerula_arbor:trailed_iron_sword",
+    "caerula_arbor:trailed_diamond_sword",
+    "caerula_arbor:trailed_netherite_sword",
+    "caerula_arbor:trailed_golden_sword",
+    "caerula_arbor:trailrite_sword",
+    "caerula_arbor:iron_sword_of_knight_corpus",
+    "caerula_arbor:long_sword_of_knight_corpus",
+    "caerula_arbor:apocata_sword",
+    "caerula_arbor:aegir_sword",
+    "caerula_arbor:skadi_sword"
+  ]
+}

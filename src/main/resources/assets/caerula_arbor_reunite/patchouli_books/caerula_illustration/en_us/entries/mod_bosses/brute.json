@@ -1,0 +1,41 @@
+{
+  "name": "烽谷暴君",
+  "icon": "caerula_arbor:oceanized_brute_spawn_egg",
+  "category": "caerula_arbor:mod_bosses",
+  "read_by_default": true,
+  "sortnum": 21,
+  "pages": [
+    {
+      "type": "image",
+      "title": "烽谷暴君",
+      "border": true,
+      "images": [
+        "caerula_arbor:patchouli_books/image_sets/brute.png"
+      ],
+      "text": "$(o)由猪灵蛮兵转化而成。$()"
+    },
+    {
+      "type": "text",
+      "title": "召唤",
+      "text": "猪灵蛮兵被溟痕或海嗣杀死后概率转化。$(br)对着猪灵蛮兵使用诱变催化剂也有机会使之转化。"
+    },
+    {
+      "type": "text",
+      "title": "烽谷暴君",
+      "text": " · 生理耐受：标准$(br) · 进攻强度：较高$(br) · 机动：一般$(br) · 物种特性：杀敌后恢复生命值并获得伤害加成。$(br) · 物种技能：$(br)受击数次后使用跳劈，造成范围伤害。"
+    },
+    {
+      "type": "text",
+      "title": "击杀建议",
+      "text": "首次无伤将她击杀，可以掉落一个较为稀有的收藏品。"
+    },
+    {
+      "type": "relations",
+      "title": "相关链接",
+      "text": "本条目提到的其它概念链接如上",
+      "entries": [
+        "caerula_arbor:mod_items/catalyst"
+      ]
+    }
+  ]
+}

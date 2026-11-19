@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:branded_land",
+    "windswept_hills",
+    "windswept_gravelly_hills",
+    "frozen_peaks",
+    "jagged_peaks",
+    "stony_peaks"
+  ]
+}

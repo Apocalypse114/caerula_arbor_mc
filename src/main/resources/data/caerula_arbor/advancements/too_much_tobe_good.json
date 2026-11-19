@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:alchemist_injector"
+    },
+    "title": {
+      "translate": "advancements.too_much_tobe_good.title"
+    },
+    "description": {
+      "translate": "advancements.too_much_tobe_good.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "too_much_tobe_good_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "caerula_arbor:macro_control"
+}

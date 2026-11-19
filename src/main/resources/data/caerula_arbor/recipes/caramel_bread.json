@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:nethersea_bread"
+    },
+    {
+      "item": "caerula_arbor:nethersea_bread"
+    },
+    {
+      "item": "caerula_arbor:caramel_mor"
+    },
+    {
+      "item": "caerula_arbor:caramel_mor"
+    },
+    {
+      "item": "caerula_arbor:caramel_mor"
+    },
+    {
+      "item": "caerula_arbor:caramel_mor"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:caramel_bread",
+    "count": 2
+  }
+}

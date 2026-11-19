@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    " ca",
+    "d  "
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:alchemy_base_shard"
+    },
+    "b": {
+      "item": "caerula_arbor:heteropic_piece"
+    },
+    "c": {
+      "item": "minecraft:blaze_rod"
+    },
+    "d": {
+      "item": "caerula_arbor:cutin_stick"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:alchemist_wand",
+    "count": 1
+  }
+}

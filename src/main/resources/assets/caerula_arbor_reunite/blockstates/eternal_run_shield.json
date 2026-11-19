@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caerula_arbor:block/eternal_run_shield"
+    },
+    "facing=east": {
+      "model": "caerula_arbor:block/eternal_run_shield",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "caerula_arbor:block/eternal_run_shield",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caerula_arbor:block/eternal_run_shield",
+      "y": 270
+    }
+  }
+}

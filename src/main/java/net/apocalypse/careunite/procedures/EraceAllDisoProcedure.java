@@ -1,0 +1,32 @@
+package net.apocalypse.careunite.procedures;
+
+import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.Component;
+import net.minecraft.commands.arguments.EntityArgument;
+import net.minecraft.commands.CommandSourceStack;
+
+import com.mojang.brigadier.exceptions.CommandSyntaxException;
+import com.mojang.brigadier.context.CommandContext;
+
+public class EraceAllDisoProcedure {
+	public static void execute(CommandContext<CommandSourceStack> arguments) {
+		String info = "";
+		try {
+			for (Entity entityiterator : EntityArgument.getEntities(arguments, "name")) {
+				SetRejectionOffProcedure.execute(entityiterator, 0);
+				SetRejectionOffProcedure.execute(entityiterator, 1);
+				SetRejectionOffProcedure.execute(entityiterator, 2);
+				SetRejectionOffProcedure.execute(entityiterator, 3);
+				info = Component.translatable("command.rejection.erace_all").getString();
+				info = info.replace("<player>", entityiterator.getDisplayName().getString());
+				{
+					final String _success = info;
+					final boolean _informAdmins = true;
+					arguments.getSource().sendSuccess(() -> Component.literal(_success), _informAdmins);
+				}
+			}
+		} catch (CommandSyntaxException e) {
+			e.printStackTrace();
+		}
+	}
+}

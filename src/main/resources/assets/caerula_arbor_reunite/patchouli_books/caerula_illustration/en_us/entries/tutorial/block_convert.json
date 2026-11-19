@@ -1,0 +1,47 @@
+{
+  "name": "方块同化",
+  "icon": "caerula_arbor:trail_pumpking",
+  "category": "caerula_arbor:tutorial",
+  "read_by_default": true,
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "方块同化",
+      "item": "caerula_arbor:trail_debris",
+      "scale": 1,
+      "text": "您可能已经见识过了溟痕的侵蚀能力。这种能力十分危险，但善加利用，也可以用于改良一些材料。$(br)您可能会在合成表中看到过此类既视感很强的同化方块，显然它们对应了原版的方块。$(br)您可以通过向其上放置片状溟痕的方式来将其转化。"
+    },
+    {
+      "type": "image",
+      "title": "示例",
+      "border": true,
+      "images": [
+        "caerula_arbor:patchouli_books/image_sets/convert_show.png"
+      ],
+      "text": "$(o)如图是转化远古残骸的示例。"
+    },
+    {
+      "type": "image",
+      "title": "列表",
+      "border": true,
+      "images": [
+        "caerula_arbor:patchouli_books/image_sets/convert_list.png"
+      ],
+      "text": "$(o)如图部分常见可转化方块的示例。"
+    },
+    {
+      "type": "text",
+      "title": "注意事项",
+      "text": "转化使应注意做好隔离，以免溟痕失控。$(br)如果觉得太慢，可以使用骨粉右键溟痕将其催熟。"
+    },
+    {
+      "type": "relations",
+      "title": "相关链接",
+      "text": "本条目提到的其它概念链接如上",
+      "entries": [
+        "caerula_arbor:lead_in/nethersea_brand"
+      ]
+    }
+  ]
+}

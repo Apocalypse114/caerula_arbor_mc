@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:sea_trail_mor"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "caerula_arbor:real_egg"
+    },
+    "d": {
+      "item": "minecraft:wheat"
+    },
+    "e": {
+      "item": "caerula_arbor:item_nethersea_wheat"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:trail_cake",
+    "count": 1
+  }
+}

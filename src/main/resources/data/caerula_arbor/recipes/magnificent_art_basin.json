@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba",
+    "cac"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:aegir_bolt"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    },
+    "c": {
+      "item": "caerula_arbor:alchemy_prismarine"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:magnicifent_art_basin",
+    "count": 1
+  }
+}

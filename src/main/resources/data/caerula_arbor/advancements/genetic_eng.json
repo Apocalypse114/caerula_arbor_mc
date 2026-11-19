@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:base_egg"
+    },
+    "title": {
+      "translate": "advancements.genetic_eng.title"
+    },
+    "description": {
+      "translate": "advancements.genetic_eng.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "genetic_eng_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:base_egg"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "caerula_arbor:make_reaper_egg",
+      "caerula_arbor:craft_base_egg",
+      "caerula_arbor:fry_egg",
+      "caerula_arbor:smoke_egg",
+      "caerula_arbor:camp_egg",
+      "caerula_arbor:craft_leath_legg",
+      "caerula_arbor:cookfakeegg",
+      "caerula_arbor:smokefakegg",
+      "caerula_arbor:campfire_fakeegg",
+      "caerula_arbor:craft_chitin_phloem_leggings",
+      "caerula_arbor:smith_knight_leggings",
+      "caerula_arbor:egg_custard",
+      "caerula_arbor:craft_preserved_egg",
+      "caerula_arbor:dry_sniffer_egg",
+      "caerula_arbor:cook_sniffer_egg",
+      "caerula_arbor:smoke_sniffer_egg",
+      "caerula_arbor:craft_chiesler_egg",
+      "caerula_arbor:craft_creeper_egg"
+    ]
+  },
+  "parent": "caerula_arbor:infinite_growth"
+}

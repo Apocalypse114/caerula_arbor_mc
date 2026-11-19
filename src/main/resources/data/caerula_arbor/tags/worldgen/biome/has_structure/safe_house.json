@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "snowy_plains",
+    "caerula_arbor:branded_land",
+    "badlands",
+    "meadow",
+    "desert"
+  ]
+}

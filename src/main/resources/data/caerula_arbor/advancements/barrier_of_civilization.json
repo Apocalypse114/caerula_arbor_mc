@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:mortar_main_block"
+    },
+    "title": {
+      "translate": "advancements.barrier_of_civilization.title"
+    },
+    "description": {
+      "translate": "advancements.barrier_of_civilization.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "barrier_of_civilization_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:motar_base_block"
+            ],
+            "count": {
+              "min": 27,
+              "max": 999
+            }
+          }
+        ]
+      }
+    },
+    "barrier_of_civilization_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:mortar_main_block"
+            ],
+            "count": {
+              "min": 9,
+              "max": 999
+            }
+          }
+        ]
+      }
+    },
+    "barrier_of_civilization_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:trail_powder_core"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    },
+    "barrier_of_civilization_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gunpowder"
+            ],
+            "count": {
+              "min": 12,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4
+  },
+  "parent": "caerula_arbor:craft_mortar"
+}

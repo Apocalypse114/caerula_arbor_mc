@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:heteropic_piece"
+    },
+    "b": {
+      "tag": "caerula_arbor:moist_item"
+    },
+    "c": {
+      "item": "caerula_arbor:complex_chitin_apple"
+    },
+    "d": {
+      "item": "caerula_arbor:nervous_regeneration"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:enchanted_complex_chitin_apple",
+    "count": 3
+  }
+}

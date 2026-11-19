@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:chest_attack",
+    "caerula_arbor:endspeaker_attack",
+    "caerula_arbor:general_seaborn_attack",
+    "caerula_arbor:highmore_attack",
+    "caerula_arbor:isharmla_attack",
+    "caerula_arbor:izumik_normal_attack",
+    "caerula_arbor:puncture_attack",
+    "caerula_arbor:repeller_attack",
+    "caerula_arbor:super_cat_attack",
+    "caerula_arbor:warden_attack",
+    "mob_attack",
+    "caerula_arbor:warden_sonic",
+    "caerula_arbor:runvolution_attack"
+  ]
+}

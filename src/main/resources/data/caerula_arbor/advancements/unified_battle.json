@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:interphone"
+    },
+    "title": {
+      "translate": "advancements.unified_battle.title"
+    },
+    "description": {
+      "translate": "advancements.unified_battle.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unified_battle_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:interphone"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "caerula_arbor:craft_fax",
+      "caerula_arbor:craft_empty_treaty",
+      "caerula_arbor:sea_copper_treaty",
+      "caerula_arbor:seal_iron_treaty",
+      "caerula_arbor:seal_gold_treaty",
+      "caerula_arbor:seal_diamond_treaty",
+      "caerula_arbor:seal_netherite_treaty",
+      "caerula_arbor:seal_emerald_treaty"
+    ]
+  },
+  "parent": "caerula_arbor:encounter_from_the_ocean"
+}

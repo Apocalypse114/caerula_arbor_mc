@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:bosses",
+    "#caerula_arbor:hunters",
+    "caerula_arbor:slider_ball",
+    "caerula_arbor:slider_ball_huge"
+  ]
+}

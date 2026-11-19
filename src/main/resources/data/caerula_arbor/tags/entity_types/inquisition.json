@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#caerula_arbor:warriors",
+    "#caerula_arbor:phalax",
+    "caerula_arbor:tribunal_healer",
+    "caerula_arbor:irene",
+    "caerula_arbor:saint_carmen",
+    "caerula_arbor:ishmael",
+    "caerula_arbor:iberia_monstrosity",
+    "caerula_arbor:lumen",
+    "caerula_arbor:typhoeus"
+  ]
+}

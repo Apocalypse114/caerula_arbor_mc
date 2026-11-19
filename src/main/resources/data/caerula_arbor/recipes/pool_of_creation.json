@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:ocean_phloem"
+    },
+    "b": {
+      "item": "caerula_arbor:whirl_eye"
+    },
+    "c": {
+      "item": "caerula_arbor:cell_cluster"
+    },
+    "d": {
+      "item": "caerula_arbor:sea_trail_solid"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:ocean_ovary",
+    "count": 3
+  }
+}

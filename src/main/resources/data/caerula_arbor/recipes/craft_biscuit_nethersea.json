@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:chitin_cookie_done"
+    },
+    {
+      "item": "caerula_arbor:chitin_cookie_done"
+    },
+    {
+      "item": "caerula_arbor:sea_trail_mor"
+    },
+    {
+      "item": "caerula_arbor:sea_trail_mor"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:nethersea_biscuit",
+    "count": 1
+  }
+}

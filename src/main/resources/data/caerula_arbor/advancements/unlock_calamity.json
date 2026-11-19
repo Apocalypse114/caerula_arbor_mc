@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:record_undertides"
+    },
+    "title": {
+      "translate": "advancements.unlock_calamity.title"
+    },
+    "description": {
+      "translate": "advancements.unlock_calamity.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unlock_calamity_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "caerula_arbor:isharmla_core",
+      "caerula_arbor:isharmla_bottom",
+      "caerula_arbor:craft_isharmla_brick",
+      "caerula_arbor:chiesle_isharmla_brick",
+      "caerula_arbor:pillar_isharmla_brick",
+      "caerula_arbor:gild_isharmla_brick",
+      "caerula_arbor:stair_isharmla_brick",
+      "caerula_arbor:slab_isharmla_brick",
+      "caerula_arbor:wall_isharmla_chiesle",
+      "caerula_arbor:wall_isharmla_gilded",
+      "caerula_arbor:craft_isharmla_milk",
+      "caerula_arbor:craft_biscuit_isharmla"
+    ]
+  },
+  "parent": "caerula_arbor:whirling_whisper"
+}

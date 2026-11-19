@@ -1,0 +1,179 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.pumpkin_carriage",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "axis",
+					"pivot": [0, 10, -2.75]
+				},
+				{
+					"name": "all",
+					"parent": "axis",
+					"pivot": [0, 10, -2.75]
+				},
+				{
+					"name": "headAxis",
+					"parent": "all",
+					"pivot": [0, 2, 0.25]
+				},
+				{
+					"name": "pumpkin",
+					"parent": "headAxis",
+					"pivot": [0, 2, 0.25],
+					"cubes": [
+						{"origin": [-8, 2, -8], "size": [16, 16, 16], "uv": [0, 0]},
+						{"origin": [-7, 3, -7.5], "size": [14, 14, 4], "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "glowEye",
+					"parent": "pumpkin",
+					"pivot": [0, 9, -6.75],
+					"cubes": [
+						{
+							"origin": [-5, 4, -7.75],
+							"size": [10, 10, 2],
+							"uv": {
+								"north": {"uv": [51, 5], "uv_size": [10, 10]}
+							}
+						}
+					]
+				},
+				{
+					"name": "stem",
+					"parent": "pumpkin",
+					"pivot": [0, 18, 0],
+					"cubes": [
+						{"origin": [-1, 18, -1], "size": [2, 5, 2], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "mouth",
+					"parent": "pumpkin",
+					"pivot": [0.5, 4, -7.99],
+					"cubes": [
+						{
+							"origin": [-6, 3, -7.99],
+							"size": [13, 5, 0],
+							"uv": {
+								"north": {"uv": [1, 10], "uv_size": [13, 5]}
+							}
+						}
+					]
+				},
+				{
+					"name": "wheels",
+					"parent": "all",
+					"pivot": [0, 1, 0]
+				},
+				{
+					"name": "leftSide",
+					"parent": "wheels",
+					"pivot": [4.5, 1.5, 0],
+					"cubes": [
+						{
+							"origin": [-2, 1.5, -3.5],
+							"size": [16, 4, 6],
+							"pivot": [5.5, 3.5, -0.5],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [0, 60], "uv_size": [16, 4]},
+								"down": {"uv": [0, 60], "uv_size": [16, -6]}
+							}
+						}
+					]
+				},
+				{
+					"name": "deco1",
+					"parent": "leftSide",
+					"pivot": [8, 5, -7],
+					"cubes": [
+						{"origin": [7.5, 2, -14], "size": [1, 8, 8], "uv": [46, 32]}
+					]
+				},
+				{
+					"name": "wheel1",
+					"parent": "deco1",
+					"pivot": [7.5, 5, -11],
+					"cubes": [
+						{"origin": [7.5, 1, -14], "size": [8, 8, 8], "pivot": [11.5, 5, -10], "rotation": [90, 0, 0], "uv": [32, 48]}
+					]
+				},
+				{
+					"name": "deco3",
+					"parent": "leftSide",
+					"pivot": [8, 5, 7],
+					"cubes": [
+						{"origin": [7.5, 2, 6], "size": [1, 8, 8], "pivot": [8, 6, 10], "rotation": [0, -180, 0], "uv": [46, 32], "mirror": true}
+					]
+				},
+				{
+					"name": "wheel4",
+					"parent": "deco3",
+					"pivot": [7.5, 5, 11],
+					"cubes": [
+						{"origin": [7.5, 1, 6], "size": [8, 8, 8], "pivot": [11.5, 5, 10], "rotation": [-90, 0, 180], "uv": [32, 48], "mirror": true}
+					]
+				},
+				{
+					"name": "rightSide",
+					"parent": "wheels",
+					"pivot": [-4.5, 1.5, 0],
+					"cubes": [
+						{
+							"origin": [-14, 1.5, -3.5],
+							"size": [16, 4, 6],
+							"pivot": [-5.5, 3.5, -0.5],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [16, 60], "uv_size": [-16, 4]},
+								"down": {"uv": [16, 60], "uv_size": [-16, -6]}
+							}
+						}
+					]
+				},
+				{
+					"name": "deco2",
+					"parent": "rightSide",
+					"pivot": [-8, 5, -7],
+					"cubes": [
+						{"origin": [-8.5, 2, -14], "size": [1, 8, 8], "uv": [46, 32], "mirror": true}
+					]
+				},
+				{
+					"name": "wheel2",
+					"parent": "deco2",
+					"pivot": [-7.5, 5, -11],
+					"cubes": [
+						{"origin": [-15.5, 1, -14], "size": [8, 8, 8], "pivot": [-11.5, 5, -10], "rotation": [90, 0, 0], "uv": [32, 48], "mirror": true}
+					]
+				},
+				{
+					"name": "deco4",
+					"parent": "rightSide",
+					"pivot": [-8, 5, 7],
+					"cubes": [
+						{"origin": [-8.5, 2, 6], "size": [1, 8, 8], "pivot": [-8, 6, 10], "rotation": [0, 180, 0], "uv": [46, 32]}
+					]
+				},
+				{
+					"name": "wheel3",
+					"parent": "deco4",
+					"pivot": [-7.5, 5, 11],
+					"cubes": [
+						{"origin": [-15.5, 1, 6], "size": [8, 8, 8], "pivot": [-11.5, 5, 10], "rotation": [-90, 0, -180], "uv": [32, 48]}
+					]
+				}
+			]
+		}
+	]
+}

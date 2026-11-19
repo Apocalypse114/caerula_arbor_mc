@@ -1,0 +1,14 @@
+package net.apocalypse.careunite.procedures;
+
+import net.minecraft.world.level.LevelAccessor;
+
+import net.apocalypse.careunite.network.CaerulaArborModVariables;
+
+public class GetStartedSilenceProcedure {
+	public static double execute(LevelAccessor world) {
+		if (CaerulaArborModVariables.MapVariables.get(world).strategy_silence >= 1) {
+			return 1;
+		}
+		return 0;
+	}
+}

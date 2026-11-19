@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:reaper_pet",
+    "caerula_arbor:oceanized_dog",
+    "caerula_arbor:rocinante",
+    "caerula_arbor:chiesler_pet",
+    "caerula_arbor:creeper_pet"
+  ]
+}

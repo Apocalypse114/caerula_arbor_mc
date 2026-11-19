@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:tombstone_undertides",
+    "caerula_arbor:tombstone_undertide_small",
+    "caerula_arbor:tombstone_stultifera",
+    "caerula_arbor:tombstone_stultifera_small",
+    "caerula_arbor:tombstone_living"
+  ]
+}

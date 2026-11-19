@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caerula_arbor:block/iberia_cpu"
+    },
+    "facing=east": {
+      "model": "caerula_arbor:block/iberia_cpu",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "caerula_arbor:block/iberia_cpu",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caerula_arbor:block/iberia_cpu",
+      "y": 270
+    }
+  }
+}

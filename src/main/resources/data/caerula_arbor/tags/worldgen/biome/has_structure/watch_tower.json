@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#caerula_arbor:has_structure/by_the_sea",
+    "snowy_beach",
+    "snowy_plains"
+  ]
+}

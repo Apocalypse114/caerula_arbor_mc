@@ -1,0 +1,20 @@
+{
+  "name": "溟海锻造模板",
+  "icon": "caerula_arbor:ocean_trim_template",
+  "category": "caerula_arbor:mod_items",
+  "read_by_default": true,
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "溟海锻造模板",
+      "item": "caerula_arbor:ocean_trim_template",
+      "scale": 1,
+      "text": "神秘的锻造模板，可用于升级几丁质装备至复合几丁质。$(br)可以在海底遗迹或沉船获得。$(br)模组结构中覆雪实验室(abyssal_lab)或涡旋座(submarine)也可能出现。"
+    },
+     {
+      "type": "crafting",
+      "recipe":"caerula_arbor:copy_templates"
+    }
+  ]
+}

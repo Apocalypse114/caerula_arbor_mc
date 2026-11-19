@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "item": "caerula_arbor:trailrite_nugget"
+    },
+    "c": {
+      "item": "caerula_arbor:chitin_ingot"
+    },
+    "d": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "e": {
+      "item": "minecraft:obsidian"
+    },
+    "f": {
+      "item": "caerula_arbor:complex_chitin_block"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:motar_base_block",
+    "count": 3
+  }
+}

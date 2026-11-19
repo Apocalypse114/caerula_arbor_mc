@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:idv_izumik"
+    },
+    "title": {
+      "translate": "advancements.absurd_of_evolution.title"
+    },
+    "description": {
+      "translate": "advancements.absurd_of_evolution.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "absurd_of_evolution_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "caerula_arbor:fifth_touch"
+}

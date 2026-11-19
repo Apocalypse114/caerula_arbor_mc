@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:iberia_gear"
+    },
+    "b": {
+      "item": "caerula_arbor:trailrite_nugget"
+    },
+    "c": {
+      "item": "caerula_arbor:ocean_machine"
+    },
+    "d": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:iberia_cpu",
+    "count": 1
+  }
+}

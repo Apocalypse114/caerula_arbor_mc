@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:treaty_empty"
+    },
+    "title": {
+      "translate": "advancements.lifetime_employment.title"
+    },
+    "description": {
+      "translate": "advancements.lifetime_employment.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lifetime_employment_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:treaty_empty"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "caerula_arbor:inquisition_template",
+      "caerula_arbor:inquisition_coat",
+      "caerula_arbor:inquisition_pant",
+      "caerula_arbor:inquisition_shoe",
+      "caerula_arbor:inquisitor_hat",
+      "caerula_arbor:inquisitor_chestplate",
+      "caerula_arbor:inquisitor_leggings",
+      "caerula_arbor:inquisitor_boots"
+    ]
+  },
+  "parent": "caerula_arbor:unified_battle"
+}

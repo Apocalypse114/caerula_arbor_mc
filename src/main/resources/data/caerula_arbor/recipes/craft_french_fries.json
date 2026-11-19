@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:nethersea_baked_potato"
+    },
+    {
+      "item": "caerula_arbor:paper_bag"
+    },
+    {
+      "item": "caerula_arbor:ocean_cutin"
+    },
+    {
+      "item": "caerula_arbor:ocean_cutin"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:french_fries",
+    "count": 1
+  }
+}

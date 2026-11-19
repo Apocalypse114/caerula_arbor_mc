@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dec",
+    "afc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:echo_shard"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:gold_ingot"
+    },
+    "d": {
+      "item": "caerula_arbor:moist_echo_shard"
+    },
+    "e": {
+      "item": "caerula_arbor:ocean_machine"
+    },
+    "f": {
+      "item": "caerula_arbor:heteropic_piece"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:echo_ender_gold",
+    "count": 1
+  }
+}

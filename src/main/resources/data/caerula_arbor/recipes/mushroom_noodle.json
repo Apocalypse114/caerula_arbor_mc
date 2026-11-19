@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "caerula_arbor:penduncle_noodle"
+    },
+    {
+      "item": "caerula_arbor:trail_mushroom"
+    },
+    {
+      "item": "caerula_arbor:trail_mushroom"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:mushroom_noodle",
+    "count": 1
+  }
+}

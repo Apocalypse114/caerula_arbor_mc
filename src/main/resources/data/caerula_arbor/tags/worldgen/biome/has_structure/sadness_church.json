@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:branded_land",
+    "snowy_plains",
+    "birch_forest",
+    "dark_forest",
+    "old_growth_birch_forest",
+    "windswept_forest"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "caerula_arbor:cloister",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:abyssal_lab",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:iberia_eye",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:brand_palace",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 58,
+    "separation": 19,
+    "salt": 732155636
+  }
+}

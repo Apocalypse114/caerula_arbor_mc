@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " a ",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "c": {
+      "item": "caerula_arbor:nethersea_powder_square"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:aegir_bolt",
+    "count": 4
+  }
+}

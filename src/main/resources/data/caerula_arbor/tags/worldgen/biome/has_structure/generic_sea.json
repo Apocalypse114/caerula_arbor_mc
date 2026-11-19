@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#caerula_arbor:has_structure/generic_deepsea",
+    "#caerula_arbor:has_structure/generic_shallow_sea",
+    "#minecraft:is_ocean"
+  ]
+}

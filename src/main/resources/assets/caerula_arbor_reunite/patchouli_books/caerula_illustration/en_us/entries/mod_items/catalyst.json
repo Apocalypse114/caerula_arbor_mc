@@ -1,0 +1,20 @@
+{
+  "name": "诱变催化剂",
+  "icon": "caerula_arbor:oceanize_catalyst",
+  "category": "caerula_arbor:mod_items",
+  "read_by_default": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "诱变催化剂",
+      "item": "caerula_arbor:oceanize_catalyst",
+      "scale": 1,
+      "text": "诱变细胞改造而来的催化剂，右键其它生物可将其海嗣化。$(br)注意成功率不是100%，随生物生命值降低而提升，若失败，催化剂仍将消耗，且该生物会受到大量伤害。$(br)对于较低级的生物，催化的致死率较高。"
+    },
+     {
+      "type": "crafting",
+      "recipe":"caerula_arbor:craft_catalyst"
+    }
+  ]
+}

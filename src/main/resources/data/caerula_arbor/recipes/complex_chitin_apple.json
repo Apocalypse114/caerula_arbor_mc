@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:complex_chitin"
+    },
+    {
+      "item": "caerula_arbor:chitin_apple"
+    },
+    {
+      "tag": "caerula_arbor:moist_item"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:complex_chitin_apple",
+    "count": 1
+  }
+}

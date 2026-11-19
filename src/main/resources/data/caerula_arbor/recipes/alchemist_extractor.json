@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "bcd",
+    " de"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:complex_chitin"
+    },
+    "b": {
+      "item": "minecraft:copper_ingot"
+    },
+    "c": {
+      "item": "caerula_arbor:alchemy_base_item"
+    },
+    "d": {
+      "item": "caerula_arbor:chitin_ingot"
+    },
+    "e": {
+      "item": "caerula_arbor:heteropic_piece"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:alchemist_extractor",
+    "count": 1
+  }
+}

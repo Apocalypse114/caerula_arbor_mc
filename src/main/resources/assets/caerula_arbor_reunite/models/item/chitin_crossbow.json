@@ -1,0 +1,47 @@
+{
+  "parent": "item/crossbow",
+  "textures": {
+    "layer0": "caerula_arbor:item/chitin_crossbow"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "caerula_arbor:chitin_crossbow_pulling": 1,
+        "caerula_arbor:chitin_crossbow_style": 0
+      },
+      "model": "caerula_arbor:item/chitin_crossbow_5"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:chitin_crossbow_pulling": 10,
+        "caerula_arbor:chitin_crossbow_style": 0
+      },
+      "model": "caerula_arbor:item/chitin_crossbow_4"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:chitin_crossbow_pulling": 15,
+        "caerula_arbor:chitin_crossbow_style": 0
+      },
+      "model": "caerula_arbor:item/chitin_crossbow_3"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:chitin_crossbow_style": 1
+      },
+      "model": "caerula_arbor:item/chitin_crossbow_2"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:chitin_crossbow_style": 2
+      },
+      "model": "caerula_arbor:item/chitin_crossbow_1"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:chitin_crossbow_style": 3
+      },
+      "model": "caerula_arbor:item/chitin_crossbow_0"
+    }
+  ]
+}

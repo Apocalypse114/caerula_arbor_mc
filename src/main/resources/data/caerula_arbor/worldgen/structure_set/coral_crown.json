@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "caerula_arbor:coral_crown",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:lamp",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:brand_portal",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 36,
+    "separation": 16,
+    "salt": 173104000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:nethersea_sniffer_egg"
+    },
+    "title": {
+      "translate": "advancements.abnormal_tide.title"
+    },
+    "description": {
+      "translate": "advancements.abnormal_tide.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "abnormal_tide_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:nethersea_sniffer_egg"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "caerula_arbor:dry_sniffer_egg",
+      "caerula_arbor:cook_sniffer_egg",
+      "caerula_arbor:smoke_sniffer_egg"
+    ]
+  },
+  "parent": "caerula_arbor:start_of_calamity"
+}

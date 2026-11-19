@@ -1,0 +1,84 @@
+{
+  "parent": "item/crossbow",
+  "textures": {
+    "layer0": "caerula_arbor:item/trailrite_crossbow"
+  },
+  "display": {
+		"thirdperson_righthand": {
+			"rotation": [ -90, 0, -60 ],
+            "translation": [ 2, 0.1, -3 ],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [ -90, 0, 30 ],
+            "translation": [ 2, 0.1, -3 ],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [ -90, 0, -55 ],
+            "translation": [ 1.13, 3.2, 1.13],
+			"scale": [1, 1, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [ -90, 0, 35 ],
+            "translation": [ 1.13, 3.2, 1.13],
+			"scale": [1, 1, 1]
+		}
+	},
+  "overrides": [
+    {
+      "predicate": {
+        "caerula_arbor:trailrite_crossbow_pull": 1
+      },
+      "model": "caerula_arbor:item/trailrite_crossbow_0"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:trailrite_crossbow_pull": 10
+      },
+      "model": "caerula_arbor:item/trailrite_crossbow_1"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:trailrite_crossbow_pull": 20
+      },
+      "model": "caerula_arbor:item/trailrite_crossbow_2"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:trailrite_crossbow_style": 1
+      },
+      "model": "caerula_arbor:item/trailrite_crossbow_3"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:trailrite_crossbow_style": 2
+      },
+      "model": "caerula_arbor:item/trailrite_crossbow_4"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:trailrite_crossbow_style": 3
+      },
+      "model": "caerula_arbor:item/trailrite_crossbow_5"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:trailrite_crossbow_style": 4
+      },
+      "model": "caerula_arbor:item/trailrite_crossbow_6"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:trailrite_crossbow_style": 5
+      },
+      "model": "caerula_arbor:item/trailrite_crossbow_7"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:trailrite_crossbow_style": 6
+      },
+      "model": "caerula_arbor:item/trailrite_crossbow_8"
+    }
+  ]
+}

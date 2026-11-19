@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#caerula_arbor:endspeaker_edible",
+    "caerula_arbor:endspeaker_0",
+    "caerula_arbor:endspeaker_1",
+    "caerula_arbor:endspeaker_2",
+    "caerula_arbor:endspeaker_3"
+  ]
+}

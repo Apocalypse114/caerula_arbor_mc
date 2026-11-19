@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:accumulator_prokaryote",
+    "caerula_arbor:apostle_prokaryote",
+    "caerula_arbor:collector_prokaryote",
+    "caerula_arbor:depositer_prokaryote",
+    "caerula_arbor:feeder_prokaryote",
+    "caerula_arbor:floater_prokaryote",
+    "caerula_arbor:nucleic_maleficent",
+    "caerula_arbor:martus",
+    "caerula_arbor:the_abandoned"
+  ]
+}

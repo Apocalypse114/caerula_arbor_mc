@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:small_flowers"
+    },
+    "b": {
+      "item": "caerula_arbor:ocean_eye"
+    },
+    "c": {
+      "item": "caerula_arbor:ocean_fibre"
+    },
+    "d": {
+      "item": "caerula_arbor:drifter_ball"
+    },
+    "e": {
+      "item": "caerula_arbor:phloem_block"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:seaborn_flower",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "caerula_arbor:item/spotless_alchemy_base_item"
+  }
+}

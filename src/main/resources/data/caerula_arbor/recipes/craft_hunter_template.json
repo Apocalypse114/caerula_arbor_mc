@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "tag": "caerula_arbor:hunter_gene"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:hunter_template",
+    "count": 2
+  }
+}

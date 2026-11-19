@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:aegir_mortar_gunpowder_box"
+    },
+    "title": {
+      "translate": "advancements.fast_dessemble.title"
+    },
+    "description": {
+      "translate": "advancements.fast_dessemble.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "fast_dessemble_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:aegir_mortar_gunpowder_box"
+            ],
+            "count": {
+              "min": 1,
+              "max": 99
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "caerula_arbor:craft_mortar"
+}

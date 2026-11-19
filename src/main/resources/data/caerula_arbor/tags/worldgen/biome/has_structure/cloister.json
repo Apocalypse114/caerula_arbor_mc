@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#caerula_arbor:has_structure/on_plain",
+    "meadow",
+    "stony_shore"
+  ]
+}

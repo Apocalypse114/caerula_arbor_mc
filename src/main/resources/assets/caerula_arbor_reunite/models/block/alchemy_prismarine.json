@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/prismarine_bricks",
+    "up": "caerula_arbor:block/alchemy_prismarine",
+    "north": "minecraft:block/prismarine_bricks",
+    "east": "minecraft:block/prismarine_bricks",
+    "south": "minecraft:block/prismarine_bricks",
+    "west": "minecraft:block/prismarine_bricks",
+    "particle": "minecraft:block/prismarine_bricks"
+  },
+  "render_type": "solid"
+}

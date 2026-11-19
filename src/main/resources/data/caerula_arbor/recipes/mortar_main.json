@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "eee"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:trailrite_nugget"
+    },
+    "b": {
+      "item": "minecraft:copper_ingot"
+    },
+    "c": {
+      "item": "minecraft:iron_block"
+    },
+    "d": {
+      "item": "caerula_arbor:ocean_machine"
+    },
+    "e": {
+      "item": "caerula_arbor:complex_chitin"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:mortar_main_block",
+    "count": 1
+  }
+}

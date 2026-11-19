@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:trail_plank"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:item_nethersea_boat",
+    "count": 1
+  }
+}

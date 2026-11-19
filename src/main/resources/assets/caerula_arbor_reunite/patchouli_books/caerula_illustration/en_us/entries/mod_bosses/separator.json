@@ -1,0 +1,14 @@
+{
+  "name": "--分界线--",
+  "icon": "caerula_arbor:ocean_glasspane",
+  "category": "caerula_arbor:mod_bosses",
+  "read_by_default": true,
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "title": "分界线",
+      "text": "该条目之前的领袖均为原生海怪，直接来自大群，其顺序为挑战顺序的参考。$(br)该条目之后的领袖均为深海教徒/信众，其顺序也是挑战顺序的参考，但与原生海怪独立。"
+    }
+  ]
+}

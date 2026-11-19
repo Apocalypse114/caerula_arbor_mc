@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:ocean_ovary"
+    },
+    {
+      "item": "caerula_arbor:item_nethersea_wheat"
+    },
+    {
+      "item": "caerula_arbor:item_nethersea_wheat"
+    },
+    {
+      "item": "caerula_arbor:item_nethersea_wheat"
+    },
+    {
+      "item": "caerula_arbor:item_nethersea_wheat"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "caerula_arbor:cooked_mor"
+    },
+    {
+      "item": "caerula_arbor:cooked_mor"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:mooncake_of_procreation",
+    "count": 4
+  }
+}

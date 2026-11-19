@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:ocean_peduncle"
+    },
+    {
+      "item": "caerula_arbor:ocean_peduncle"
+    },
+    {
+      "item": "caerula_arbor:ocean_peduncle"
+    },
+    {
+      "item": "caerula_arbor:empty_can"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:canned_peduncle",
+    "count": 1
+  }
+}

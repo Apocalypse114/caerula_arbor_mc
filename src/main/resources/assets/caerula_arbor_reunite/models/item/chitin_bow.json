@@ -1,0 +1,26 @@
+{
+  "parent": "item/bow",
+  "textures": {
+    "layer0": "caerula_arbor:item/chitin_bow"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "caerula_arbor:chitin_bow_pulling": 1
+      },
+      "model": "caerula_arbor:item/chitin_bow_0"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:chitin_bow_pulling": 15
+      },
+      "model": "caerula_arbor:item/chitin_bow_1"
+    },
+    {
+      "predicate": {
+        "caerula_arbor:chitin_bow_pulling": 30
+      },
+      "model": "caerula_arbor:item/chitin_bow_2"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "caerula_arbor:custom/nethersea_farmland",
+  "textures": {
+    "all": "caerula_arbor:block/nethersea_farmland_moist",
+    "particle": "caerula_arbor:block/nethersea_block",
+    "side": "minecraft:block/dirt",
+    "top": "caerula_arbor:block/nethersea_farmland_moist"
+  },
+  "render_type": "solid"
+}

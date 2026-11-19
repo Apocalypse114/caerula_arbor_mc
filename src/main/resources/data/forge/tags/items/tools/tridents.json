@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:chitin_trident",
+    "minecraft:trident",
+    "caerula_arbor:complex_chitin_trident",
+    "caerula_arbor:trailrite_trident"
+  ]
+}

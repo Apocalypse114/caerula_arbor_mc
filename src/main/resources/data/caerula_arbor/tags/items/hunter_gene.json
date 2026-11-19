@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:hunter_gene",
+    "caerula_arbor:hunter_gene_skadi",
+    "caerula_arbor:hunter_gene_ulpians",
+    "caerula_arbor:hunter_gene_gladiia",
+    "caerula_arbor:hunter_gene_specter"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:bishop_fish",
+    "caerula_arbor:creeper_fish",
+    "caerula_arbor:fly_fish",
+    "caerula_arbor:pregnant_fish",
+    "caerula_arbor:puncture_fish",
+    "caerula_arbor:reaper_fish",
+    "caerula_arbor:run_fish",
+    "caerula_arbor:shooter_fish",
+    "caerula_arbor:slider_fish"
+  ]
+}

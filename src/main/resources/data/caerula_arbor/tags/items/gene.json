@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:dna_reaper",
+    "caerula_arbor:dna_horse",
+    "caerula_arbor:rocinante_injector",
+    "caerula_arbor:nurture_gene_set",
+    "caerula_arbor:gene_sample_normal",
+    "caerula_arbor:gene_sample_upgraded",
+    "caerula_arbor:gene_sample_superb",
+    "caerula_arbor:dna_chiesler",
+    "caerula_arbor:dna_creeper",
+    "#caerula_arbor:hunter_gene"
+  ]
+}

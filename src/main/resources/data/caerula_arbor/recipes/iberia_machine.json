@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:iberia_gear"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "caerula_arbor:trailrite_nugget"
+    },
+    "d": {
+      "item": "caerula_arbor:complex_chitin"
+    },
+    "e": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:iberia_machine_block",
+    "count": 1
+  }
+}

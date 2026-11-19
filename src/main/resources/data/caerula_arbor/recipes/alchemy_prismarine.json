@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    },
+    "c": {
+      "item": "caerula_arbor:alchemy_base_shard"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:alchemy_prismarine",
+    "count": 1
+  }
+}

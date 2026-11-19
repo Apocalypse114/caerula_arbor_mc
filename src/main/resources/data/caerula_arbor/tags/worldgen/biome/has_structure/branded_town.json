@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#caerula_arbor:has_structure/by_the_sea",
+    "birch_forest",
+    "old_growth_birch_forest",
+    "caerula_arbor:branded_land"
+  ]
+}

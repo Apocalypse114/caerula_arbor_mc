@@ -1,0 +1,14 @@
+{
+  "parent": "caerula_arbor:custom/nethersea_bomb",
+  "textures": {
+    "all": "caerula_arbor:block/nethersea_bomb_top_1",
+    "particle": "caerula_arbor:block/nethersea_bomb_top_1",
+    "0": "minecraft:block/iron_block",
+    "1": "caerula_arbor:block/nethersea_bomb_side_1_0",
+    "2": "caerula_arbor:block/nethersea_bomb_side_1_1",
+    "3": "caerula_arbor:block/nethersea_bomb_side_1_2",
+    "4": "caerula_arbor:block/nethersea_bomb_side_1_3",
+    "5": "caerula_arbor:block/nethersea_bomb_top_1"
+  },
+  "render_type": "cutout"
+}

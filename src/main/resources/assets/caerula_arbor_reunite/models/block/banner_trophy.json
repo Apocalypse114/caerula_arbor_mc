@@ -1,0 +1,9 @@
+{
+  "parent": "caerula_arbor:custom/banner_cup",
+  "textures": {
+    "all": "caerula_arbor:block/illusioner_banner_small",
+    "particle": "caerula_arbor:block/illusioner_banner_small",
+    "0": "caerula_arbor:block/illusioner_banner_small"
+  },
+  "render_type": "solid"
+}

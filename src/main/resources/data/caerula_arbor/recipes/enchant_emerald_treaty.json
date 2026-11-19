@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:emerald_treaty"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "caerula_arbor:nethersea_powder_square"
+    },
+    {
+      "item": "caerula_arbor:nethersea_powder_square"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "caerula_arbor:redstone_ingot"
+    },
+    {
+      "item": "caerula_arbor:heteropic_piece"
+    },
+    {
+      "item": "caerula_arbor:redstone_ingot"
+    },
+    {
+      "item": "caerula_arbor:redstone_ingot"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:enchanted_emerald_treaty",
+    "count": 1
+  }
+}

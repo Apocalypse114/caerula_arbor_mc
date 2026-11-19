@@ -1,0 +1,24 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+		"parent": "item/generated",
+		"textures": {
+		    "layer0": "caerula_arbor:item/chitin_trident"
+		}
+	},
+	"perspectives":{
+		"firstperson_righthand":{
+			"parent": "caerula_arbor:item/chitin_trident_0"
+		},
+		"firstperson_lefthand":{
+			"parent": "caerula_arbor:item/chitin_trident_0"
+		},
+		"thirdperson_righthand":{
+			"parent": "caerula_arbor:item/chitin_trident_0"
+		},
+		"thirdperson_lefthand":{
+			"parent": "caerula_arbor:item/chitin_trident_0"
+		}
+	}
+}

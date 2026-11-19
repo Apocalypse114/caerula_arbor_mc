@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:cell_cluster"
+    },
+    {
+      "item": "caerula_arbor:hyper_alchemy_base"
+    },
+    {
+      "item": "caerula_arbor:cell_cluster"
+    },
+    {
+      "item": "caerula_arbor:base_egg"
+    },
+    {
+      "item": "caerula_arbor:moist_echo_shard"
+    },
+    {
+      "item": "caerula_arbor:nervous_regeneration"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "caerula_arbor:spotless_alchemy_base"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:lineage_reverse_compound",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "幽域守望者",
+  "icon": "caerula_arbor:oceanized_warden_spawnegg",
+  "category": "caerula_arbor:mod_bosses",
+  "read_by_default": true,
+  "sortnum": 25,
+  "pages": [
+    {
+      "type": "image",
+      "title": "幽域守望者",
+      "border": true,
+      "images": [
+        "caerula_arbor:patchouli_books/image_sets/warden.png",
+        "caerula_arbor:patchouli_books/image_sets/wardenis.png"
+      ],
+      "text": "$(o)由监守者转化而成。$()"
+    },
+    {
+      "type": "text",
+      "title": "召唤",
+      "text": "监守者被溟痕或海嗣杀死后概率转化。$(br)对着监守者使用诱变催化剂也有机会使之转化。"
+    },
+    {
+      "type": "text",
+      "title": "幽域守望者",
+      "text": " · 生理耐受：卓越$(br) · 进攻强度：极高$(br) · 机动：优良$(br) · 物种特性：音波会造成毁灭性的范围伤害。死亡后发射大量音波。$(br) · 物种技能：$(br)【洄之呼吸】蓄力并发射音波造成毁灭性的范围伤害。该技能回转极快。$(br)【掣肘】大力击飞敌人，随后发射一道威力较低的音波。"
+    },
+    {
+      "type": "text",
+      "title": "击杀建议",
+      "text": "请在确保自身有足额的数值后再行挑战。$(br)可以使用附魔或玛利图斯掉落的书来提升自己的法术耐受，从而更好地承受音波。$(br)亡语会对周围每个生物发射音波，若周围生物较多，一定要迅速远离中心。$(br)它的掉落物能让玩家免疫黑暗效果，除此之外用途不大，所以其推荐挑战顺序较为靠后。"
+    },
+    {
+      "type": "relations",
+      "title": "相关链接",
+      "text": "本条目提到的其它概念链接如上",
+      "entries": [
+        "caerula_arbor:mod_items/catalyst"
+      ]
+    }
+  ]
+}

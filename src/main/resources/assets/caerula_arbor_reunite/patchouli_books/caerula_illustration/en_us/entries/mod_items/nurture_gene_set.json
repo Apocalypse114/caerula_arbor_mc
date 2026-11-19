@@ -1,0 +1,30 @@
+{
+  "name": "养育者基因种",
+  "icon": "caerula_arbor:nurture_gene_set",
+  "category": "caerula_arbor:mod_items",
+  "read_by_default": true,
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "养育者基因种",
+      "item": "caerula_arbor:nurture_gene_set",
+      "scale": 1,
+      "text": "用于激活玩家进化。$(br)需注意：激活玩家进化后，玩家需要拥有排异反应，或完成玩家海嗣化，才能在深蓝记录仪中打开玩家进化界面和享受玩家进化加成。"
+    },
+     {
+      "type": "crafting",
+      "recipe":"caerula_arbor:craft_nurture_gene"
+    },
+    {
+      "type": "relations",
+      "title": "相关链接",
+      "text": "本条目提到的其它概念链接如上",
+      "entries": [
+        "caerula_arbor:mod_items/caerula_recorder",
+        "caerula_arbor:lead_in/rejections",
+        "caerula_arbor:tutorial/oceanization"
+      ]
+    }
+  ]
+}

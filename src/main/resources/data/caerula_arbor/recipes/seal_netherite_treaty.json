@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:redstonium"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "caerula_arbor:redstonium"
+    },
+    {
+      "item": "caerula_arbor:treaty_diamond"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:treaty_netherite",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "abc",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "item": "caerula_arbor:viviparous_lily"
+    },
+    "c": {
+      "item": "caerula_arbor:ocean_phloem"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:item_slider_ball",
+    "count": 1
+  }
+}

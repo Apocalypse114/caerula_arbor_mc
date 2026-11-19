@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:beacon_crystal"
+    },
+    "title": {
+      "translate": "advancements.fighting_beacon.title"
+    },
+    "description": {
+      "translate": "advancements.fighting_beacon.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fighting_beacon_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:beacon_crystal"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "caerula_arbor:dream_afloat"
+}

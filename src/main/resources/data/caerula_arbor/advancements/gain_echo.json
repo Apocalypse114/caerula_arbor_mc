@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "advancements.gain_echo.title"
+    },
+    "description": {
+      "translate": "advancements.gain_echo.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gain_echo_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "caerula_arbor:echo_starter",
+      "caerula_arbor:craft_echo_starter_gold",
+      "caerula_arbor:craft_echo_ender",
+      "caerula_arbor:craft_echo_ender_gold"
+    ]
+  },
+  "parent": "caerula_arbor:encounter_from_the_ocean"
+}

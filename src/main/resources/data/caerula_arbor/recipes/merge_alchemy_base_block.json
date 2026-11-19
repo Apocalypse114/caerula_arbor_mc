@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:alchemy_base_item"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:alchemy_base_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 4,
+  "cookingtime": 120,
+  "ingredient": {
+    "item": "caerula_arbor:chest_fish_food"
+  },
+  "result": "caerula_arbor:chest_f_ish_cooked"
+}

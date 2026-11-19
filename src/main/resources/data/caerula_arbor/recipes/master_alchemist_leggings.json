@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:sealeather_leggings"
+    },
+    {
+      "item": "minecraft:leather_leggings"
+    },
+    {
+      "item": "caerula_arbor:alchemy_base_item"
+    },
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:master_alchemist_leggings",
+    "count": 1
+  }
+}

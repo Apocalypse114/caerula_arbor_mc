@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:iberia_cpu"
+    },
+    "title": {
+      "translate": "advancements.ages_retide.title"
+    },
+    "description": {
+      "translate": "advancements.ages_retide.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ages_retide_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:iberia_machine_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    },
+    "ages_retide_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:iberia_cpu"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "caerula_arbor:renewed_techonology"
+}

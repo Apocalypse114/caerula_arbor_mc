@@ -1,0 +1,38 @@
+{
+  "name": "玩家海嗣化",
+  "icon": "caerula_arbor:transform_cell",
+  "category": "caerula_arbor:tutorial",
+  "read_by_default": true,
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "title": "海嗣化",
+      "text": "您可能见过一些被海嗣转化的生物，它们的强度都得到了很大提升。$(br)您也可以选择利用这种力量，不过也需知这需要承担代价。$(br2)您的海嗣化状态可在深蓝记录仪右上角查看。"
+    },
+    {
+      "type": "spotlight",
+      "title": "玩家海嗣化",
+      "item": "caerula_arbor:transform_cell",
+      "scale": 1,
+      "text": "您可以制作并食用海嗣诱变细胞，随后会获得一个buff。buff期间您会受到大量伤害和许多负面效果。如果撑到buff结束，则海嗣化提升一个阶段。$(br)此后继续进食细胞，buff会更猛烈，结束后会继续提升阶段。$(br)待提升至阶段三，则海嗣化圆满完成。"
+    },
+    {
+      "type": "text",
+      "title": "玩家海嗣化",
+      "text": "注意：若您死于海嗣化期间buff带来的伤害，您的海嗣化状态会重置为0。海嗣化buff期间和海嗣化完成后继续进食细胞则什么都不会发生。$(br2)海嗣化完成后，您将可以获得如下增益：全体海嗣中立，免疫溟痕，更高的神经损伤抗性，水下呼吸和更高的游泳速度，可以开启玩家进化。"
+    },
+    {
+      "type": "spotlight",
+      "title": "更好的选择",
+      "item": "caerula_arbor:mutagenisis_capsule",
+      "scale": 1,
+      "text": "海嗣诱变细胞带来的副作用十分强烈且难以抵挡，您可以选择将其加工为副作用更低的诱变胶囊。$(br)诱变胶囊服用后立刻提升一个阶段，且受到的伤害也大大减少。$(br)但是，您需要消耗更多的资源来制作。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "caerula_arbor:change_cell",
+      "recipe2":"caerula_arbor:craft_capsule"
+    }
+  ]
+}

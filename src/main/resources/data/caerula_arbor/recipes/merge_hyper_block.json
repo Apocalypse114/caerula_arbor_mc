@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:hyper_alchemy_base"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:hyper_base_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "龙纹溟痕",
+  "icon": "caerula_arbor:dragon_brand",
+  "category": "caerula_arbor:mod_items",
+  "read_by_default": true,
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "龙纹溟痕",
+      "item": "caerula_arbor:dragon_brand",
+      "scale": 1,
+      "text": "将深蚀的溟痕置于龙蛋四周或下方，等待一段时间，即变为龙纹溟痕。龙蛋不会被消耗。$(br)用空瓶子右键龙纹溟痕可将其恢复，且获得一瓶龙息。"
+    }
+  ]
+}

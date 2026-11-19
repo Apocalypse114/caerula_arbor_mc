@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:hyper_alchemy_base"
+    },
+    "title": {
+      "translate": "advancements.for_prefection.title"
+    },
+    "description": {
+      "translate": "advancements.for_prefection.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "for_prefection_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caerula_arbor:hyper_alchemy_base"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "caerula_arbor:craft_lineage_reverse_compound",
+      "caerula_arbor:alchemist_reverter"
+    ]
+  },
+  "parent": "caerula_arbor:freshman"
+}

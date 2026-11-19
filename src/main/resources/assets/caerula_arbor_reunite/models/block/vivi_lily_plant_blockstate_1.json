@@ -1,0 +1,9 @@
+{
+  "parent": "caerula_arbor:custom/crop_cross",
+  "textures": {
+    "all": "caerula_arbor:block/vivi_lily_grown",
+    "particle": "caerula_arbor:block/vivi_lily_seed",
+    "0": "caerula_arbor:block/vivi_lily_grown"
+  },
+  "render_type": "cutout"
+}

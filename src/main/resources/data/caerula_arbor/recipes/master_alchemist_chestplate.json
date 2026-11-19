@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:sealeather_chestplate"
+    },
+    {
+      "item": "minecraft:leather_chestplate"
+    },
+    {
+      "item": "caerula_arbor:alchemy_base_item"
+    },
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:master_alchemist_chestplate",
+    "count": 1
+  }
+}

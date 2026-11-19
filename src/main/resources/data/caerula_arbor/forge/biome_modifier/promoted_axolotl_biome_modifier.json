@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "the_void",
+  "spawners": {
+    "type": "caerula_arbor:promoted_axolotl",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

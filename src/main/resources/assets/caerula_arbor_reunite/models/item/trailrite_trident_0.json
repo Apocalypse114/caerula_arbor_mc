@@ -1,0 +1,7 @@
+{
+  "parent": "caerula_arbor:custom/trailrite_trident",
+  "textures": {
+    "1": "caerula_arbor:block/trident_trailrite",
+    "particle": "caerula_arbor:item/trailrite_trident"
+  }
+}

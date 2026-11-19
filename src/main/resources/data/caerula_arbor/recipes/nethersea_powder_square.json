@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:trail_powder"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:nethersea_powder_square",
+    "count": 1
+  }
+}

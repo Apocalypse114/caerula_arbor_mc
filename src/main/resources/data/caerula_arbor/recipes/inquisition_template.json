@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:obsidian"
+    },
+    "b": {
+      "item": "caerula_arbor:nethersea_powder_square"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "e": {
+      "item": "minecraft:string"
+    },
+    "f": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:inquisition_template",
+    "count": 1
+  }
+}

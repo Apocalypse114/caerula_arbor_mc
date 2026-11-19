@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:trail_powder"
+    },
+    "b": {
+      "item": "caerula_arbor:flamarine_upgrade_template"
+    },
+    "c": {
+      "item": "caerula_arbor:trailrite"
+    },
+    "d": {
+      "item": "caerula_arbor:nethersea_powder_square"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:flamarine_upgrade_template",
+    "count": 2
+  }
+}

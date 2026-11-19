@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "caerula_arbor:chitin_factory",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:chest_museum",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:oddfactory",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:crawler_lab_room",
+      "weight": 1
+    },
+    {
+      "structure": "caerula_arbor:air_base",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 58,
+    "separation": 18,
+    "salt": 940612460
+  }
+}

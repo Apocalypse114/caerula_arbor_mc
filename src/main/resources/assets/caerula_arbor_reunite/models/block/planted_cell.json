@@ -1,0 +1,9 @@
+{
+  "parent": "caerula_arbor:custom/crop_cross",
+  "textures": {
+    "all": "caerula_arbor:block/cell_plant",
+    "particle": "caerula_arbor:block/cell_plant",
+    "0": "caerula_arbor:block/cell_plant"
+  },
+  "render_type": "cutout_mipped"
+}

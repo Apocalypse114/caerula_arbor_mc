@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:phloem_block",
+    "caerula_arbor:trail_pumpking",
+    "minecraft:pumpkin",
+    "minecraft:carved_pumpkin",
+    "minecraft:jack_o_lantern",
+    "minecraft:slime_block",
+    "minecraft:honeycomb_block",
+    "minecraft:honey_block",
+    "caerula_arbor:sea_trail_burnt_solid",
+    "caerula_arbor:fibre_block",
+    "minecraft:melon",
+    "minecraft:shroomlight"
+  ]
+}

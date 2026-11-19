@@ -1,0 +1,17 @@
+{
+  "name": "caerula_arbor:sea_nest_bottom",
+  "fallback": "caerula_arbor:sea_nest_bottom",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caerula_arbor:sea_nest_bottom",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

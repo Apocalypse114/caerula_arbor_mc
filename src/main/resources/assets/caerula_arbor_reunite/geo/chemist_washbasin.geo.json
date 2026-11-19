@@ -1,0 +1,101 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.chemist_washbasin",
+				"texture_width": 128,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "all",
+					"pivot": [0, 4, 0]
+				},
+				{
+					"name": "feet1",
+					"parent": "all",
+					"pivot": [-5, 3, 0]
+				},
+				{
+					"name": "feetaxis1",
+					"parent": "feet1",
+					"pivot": [-5, 3, 0],
+					"cubes": [
+						{"origin": [-7, 0, -2], "size": [4, 4, 4], "uv": [60, 0]}
+					]
+				},
+				{
+					"name": "feet2",
+					"parent": "all",
+					"pivot": [5, 3, 0]
+				},
+				{
+					"name": "feetaxus2",
+					"parent": "feet2",
+					"pivot": [5, 3, 0],
+					"cubes": [
+						{"origin": [3, 0, -2], "size": [4, 4, 4], "uv": [60, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "all",
+					"pivot": [0, 3, 0]
+				},
+				{
+					"name": "under",
+					"parent": "body",
+					"pivot": [0, 3, 0],
+					"cubes": [
+						{"origin": [-5, 3, -3], "size": [10, 6, 6], "uv": [0, 52]},
+						{"origin": [-8, 3, -3], "size": [3, 4, 6], "uv": [0, 42]},
+						{"origin": [5, 3, -3], "size": [3, 4, 6], "uv": [0, 42], "mirror": true},
+						{"origin": [-11, 3, -3], "size": [3, 2, 6], "uv": [0, 34]},
+						{"origin": [-12.5, 4.5, -3], "size": [5, 7, 6], "inflate": -0.01, "pivot": [-8.5, 5.5, 0], "rotation": [0, 0, -27.5], "uv": [34, 51]},
+						{"origin": [8, 3, -3], "size": [3, 2, 6], "uv": [0, 34], "mirror": true},
+						{"origin": [7.5, 4.5, -3], "size": [5, 7, 6], "inflate": -0.01, "pivot": [8.5, 5.5, 0], "rotation": [0, 0, 27.5], "uv": [34, 51], "mirror": true}
+					]
+				},
+				{
+					"name": "back",
+					"parent": "body",
+					"pivot": [0, 7, 1],
+					"cubes": [
+						{"origin": [-9, 4, -1], "size": [6, 20, 4], "pivot": [-6, 4, 1], "rotation": [0, -5, -22.5], "uv": [40, 0]},
+						{"origin": [-6, 6, -1], "size": [6, 22, 4], "pivot": [-3, 6, 1], "rotation": [0, -2.5, -10], "uv": [20, 0]},
+						{"origin": [-3, 8, -1], "size": [6, 24, 4], "uv": [0, 0]},
+						{"origin": [0, 6, -1], "size": [6, 22, 4], "pivot": [3, 6, 1], "rotation": [0, 2.5, 10], "uv": [20, 26]},
+						{"origin": [3, 4, -1], "size": [6, 20, 4], "pivot": [6, 4, 1], "rotation": [0, 5, 22.5], "uv": [40, 24]}
+					]
+				},
+				{
+					"name": "deco",
+					"parent": "body",
+					"pivot": [0, 8, 1],
+					"cubes": [
+						{
+							"origin": [-16, 7, 0],
+							"size": [32, 34, 0],
+							"uv": {
+								"north": {"uv": [61, 9], "uv_size": [32, 34]}
+							}
+						},
+						{
+							"origin": [-16, 7, 0.5],
+							"size": [32, 34, 0],
+							"pivot": [0, 24, 0.5],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [93, 9], "uv_size": [-32, 34]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

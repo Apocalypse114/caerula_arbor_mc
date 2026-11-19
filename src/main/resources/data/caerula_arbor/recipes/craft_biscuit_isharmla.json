@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "caerula_arbor:chitin_cookie_done"
+    },
+    {
+      "item": "caerula_arbor:chitin_cookie_done"
+    },
+    {
+      "item": "caerula_arbor:tear_isharmla"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:isharmla_biscuit",
+    "count": 1
+  }
+}

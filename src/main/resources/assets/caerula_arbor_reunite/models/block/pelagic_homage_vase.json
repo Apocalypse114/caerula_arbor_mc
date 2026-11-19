@@ -1,0 +1,9 @@
+{
+  "parent": "caerula_arbor:custom/pelgaic_homage_vase",
+  "textures": {
+    "all": "caerula_arbor:block/pelagic_homage_vase",
+    "particle": "caerula_arbor:block/pelagic_homage_vase",
+    "0": "caerula_arbor:block/pelagic_homage_vase"
+  },
+  "render_type": "solid"
+}

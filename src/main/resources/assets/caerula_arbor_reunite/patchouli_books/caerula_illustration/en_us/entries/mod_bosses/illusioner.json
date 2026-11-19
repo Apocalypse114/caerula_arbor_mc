@@ -1,0 +1,52 @@
+{
+  "name": "蛊岸蜃教者",
+  "icon": "caerula_arbor:oceanized_illusioner_spawner",
+  "category": "caerula_arbor:mod_bosses",
+  "read_by_default": true,
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "image",
+      "title": "蛊岸蜃教者",
+      "border": true,
+      "images": [
+        "caerula_arbor:patchouli_books/image_sets/illusioner.png",
+        "caerula_arbor:patchouli_books/image_sets/sadness_church.png"
+      ],
+      "text": "$(o)灾厄村民们在深海教会中的领袖。$()"
+    },
+    {
+      "type": "text",
+      "title": "召唤",
+      "text": "在悲恸教堂中，用漩海密文板右键中央的讲台前的绿色旗帜。$(br)战斗结束后，可以使用绿宝石右键旗帜将其重置。"
+    },
+    {
+      "type": "text",
+      "title": "蛊岸蜃教者",
+      "text": " · 生理耐受：标准$(br) · 进攻强度：标准$(br) · 机动：一般$(br) · 物种特性：初始骑乘强化过的同化体劫掠兽。骑乘时使自己受到的伤害无效。$(br)未骑乘时受伤会与自己的幻影交换位置。$(br) · 物种技能：$(br)【盲目预兆】使目标获得失明并持续受到神经损伤。$(br)【紊乱预兆】召唤数个幻影，自身获得隐身。"
+    },
+    {
+      "type": "text",
+      "title": "蛊岸幻影",
+      "text": "需要一定次数的伤害击杀。$(br)被击败后有概率生成一个同化体灾厄村民海嗣。"
+    },
+    {
+      "type": "text",
+      "title": "击杀建议",
+      "text": "建议使用拥有沉默附魔的武器攻击幻影，可以使其立刻消失且不触发亡语。$(br)需要迅速击杀劫掠兽，否则等蛊岸蜃教者召唤较多幻影时，不仅幻影会给它提供保护，幻影死亡后留下的大量敌人也会十分棘手。"
+    },
+    {
+      "type": "text",
+      "title": "悲恸教堂",
+      "text": "注册名：caerula_arbor:sadness_church$(br2)灾厄深海教徒的活动场所之一。多见于雪原与森林。"
+    },
+    {
+      "type": "relations",
+      "title": "相关链接",
+      "text": "本条目提到的其它概念链接如上",
+      "entries": [
+        "caerula_arbor:mod_items/whirl_eye"
+      ]
+    }
+  ]
+}

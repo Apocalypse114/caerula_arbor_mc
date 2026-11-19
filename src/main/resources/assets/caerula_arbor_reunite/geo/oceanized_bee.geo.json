@@ -1,0 +1,102 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.oceanized_bee",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Axis",
+					"pivot": [0, 6, -0.5]
+				},
+				{
+					"name": "body",
+					"parent": "Axis",
+					"pivot": [0, 6, -0.5],
+					"cubes": [
+						{"origin": [-1, 9, -1], "size": [2, 1, 2], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Lower",
+					"parent": "body",
+					"pivot": [0, 7.5, 0],
+					"cubes": [
+						{"origin": [-3.5, 2, -5], "size": [7, 7, 10], "uv": [0, 0]},
+						{"origin": [-3.5, 2, -5], "size": [7, 7, 8], "inflate": -0.125, "uv": [0, 30]}
+					]
+				},
+				{
+					"name": "hair",
+					"parent": "Lower",
+					"pivot": [0, 7.5, -5],
+					"cubes": [
+						{"origin": [1.5, 7, -8], "size": [1, 2, 3], "uv": [0, 4], "mirror": true},
+						{"origin": [-2.5, 7, -8], "size": [1, 2, 3], "uv": [0, 4]}
+					]
+				},
+				{
+					"name": "stinger",
+					"parent": "Lower",
+					"pivot": [0, 6, 1],
+					"cubes": [
+						{"origin": [0, 5, 5], "size": [0, 4, 5], "uv": [4, 15]}
+					]
+				},
+				{
+					"name": "leg_front",
+					"parent": "Lower",
+					"pivot": [1.5, 2, -2],
+					"cubes": [
+						{"origin": [-3.5, 0, -2], "size": [7, 2, 0], "uv": [26, 1]}
+					]
+				},
+				{
+					"name": "leg_mid",
+					"parent": "Lower",
+					"pivot": [1.5, 2, 0],
+					"cubes": [
+						{"origin": [-3.5, 0, 0], "size": [7, 2, 0], "uv": [26, 3]}
+					]
+				},
+				{
+					"name": "leg_back",
+					"parent": "Lower",
+					"pivot": [1.5, 2, 2],
+					"cubes": [
+						{"origin": [-3.5, -1, 2], "size": [7, 3, 0], "uv": [26, 5]}
+					]
+				},
+				{
+					"name": "wings",
+					"parent": "body",
+					"pivot": [0, 10, 0]
+				},
+				{
+					"name": "rightwing_bone",
+					"parent": "wings",
+					"pivot": [0, 10, 0],
+					"rotation": [15, -15, 0],
+					"cubes": [
+						{"origin": [-9, 10, 0], "size": [9, 0, 6], "uv": [28, 11]}
+					]
+				},
+				{
+					"name": "leftwing_bone",
+					"parent": "wings",
+					"pivot": [1, 10, 0],
+					"rotation": [-165, 15, 180],
+					"cubes": [
+						{"origin": [-7, 10, 0], "size": [9, 0, 6], "uv": [28, 11]}
+					]
+				}
+			]
+		}
+	]
+}

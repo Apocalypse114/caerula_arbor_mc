@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:lineage_reverse_compound"
+    },
+    "title": {
+      "translate": "advancements.for_the_tomorrow.title"
+    },
+    "description": {
+      "translate": "advancements.for_the_tomorrow.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "for_the_tomorrow_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 8
+  },
+  "parent": "caerula_arbor:no_more_cry"
+}

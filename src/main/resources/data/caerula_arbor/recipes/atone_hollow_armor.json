@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "cbc"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:alchemy_prismarine"
+    },
+    "b": {
+      "item": "minecraft:iron_block"
+    },
+    "c": {
+      "item": "caerula_arbor:aegir_bolt"
+    },
+    "d": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:atone_hollow_armor",
+    "count": 1
+  }
+}

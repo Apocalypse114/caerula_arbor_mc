@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "caerula_arbor:dragon_wand",
+    "minecraft:crossbow",
+    "caerula_arbor:chitin_crossbow",
+    "caerula_arbor:complex_chitin_crossbow"
+  ]
+}

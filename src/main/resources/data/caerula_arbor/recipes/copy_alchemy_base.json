@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "caerula_arbor:can_copy_alchemy"
+    },
+    {
+      "item": "caerula_arbor:cell_cluster"
+    },
+    {
+      "tag": "caerula_arbor:seaborn_egg"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "caerula_arbor:alchemy_base_item"
+    },
+    {
+      "item": "caerula_arbor:alchemy_base_item"
+    },
+    {
+      "item": "caerula_arbor:alchemy_base_item"
+    },
+    {
+      "item": "caerula_arbor:heteropic_piece"
+    }
+  ],
+  "result": {
+    "item": "caerula_arbor:alchemy_base_item",
+    "count": 4
+  }
+}

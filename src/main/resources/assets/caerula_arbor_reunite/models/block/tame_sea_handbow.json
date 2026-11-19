@@ -1,0 +1,9 @@
+{
+  "parent": "caerula_arbor:custom/tame_sea_handbow",
+  "textures": {
+    "all": "caerula_arbor:block/tame_sea_handbow",
+    "particle": "caerula_arbor:block/tame_sea_handbow",
+    "0": "caerula_arbor:block/tame_sea_handbow"
+  },
+  "render_type": "solid"
+}

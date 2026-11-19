@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "dbe"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:nethersea_tinter"
+    },
+    "b": {
+      "item": "caerula_arbor:chitin_ingot"
+    },
+    "c": {
+      "item": "caerula_arbor:ocean_eye"
+    },
+    "d": {
+      "item": "caerula_arbor:ocean_crystal"
+    },
+    "e": {
+      "item": "caerula_arbor:ocean_cutin"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:complex_chitin",
+    "count": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:ocean_cutin"
+    },
+    "b": {
+      "item": "caerula_arbor:ocean_trim_template"
+    },
+    "c": {
+      "tag": "caerula_arbor:seaborn_egg"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:ocean_trim_template",
+    "count": 2
+  }
+}

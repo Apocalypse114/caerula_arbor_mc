@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    " bb"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:complex_chitin"
+    },
+    "b": {
+      "item": "caerula_arbor:chitin_ingot"
+    },
+    "c": {
+      "item": "caerula_arbor:alchemy_prismarine"
+    },
+    "d": {
+      "item": "minecraft:gold_ingot"
+    },
+    "e": {
+      "item": "caerula_arbor:hyper_alchemy_base"
+    },
+    "f": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:reinforced_injector",
+    "count": 1
+  }
+}

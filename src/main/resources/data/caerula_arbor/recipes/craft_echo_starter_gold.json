@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dec"
+  ],
+  "key": {
+    "a": {
+      "item": "caerula_arbor:moist_echo_shard"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:gold_ingot"
+    },
+    "d": {
+      "item": "minecraft:echo_shard"
+    },
+    "e": {
+      "item": "caerula_arbor:ocean_machine"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:echo_starter_gold",
+    "count": 1
+  }
+}

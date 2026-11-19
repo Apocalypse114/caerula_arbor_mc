@@ -1,0 +1,9 @@
+{
+  "parent": "caerula_arbor:custom/crop_cross",
+  "textures": {
+    "all": "caerula_arbor:block/tentacle_plant_1",
+    "particle": "caerula_arbor:block/tentacle_plant_0",
+    "0": "caerula_arbor:block/tentacle_plant_1"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,106 @@
+{
+  "display": {
+    "icon": {
+      "item": "caerula_arbor:sea_trail_init"
+    },
+    "title": {
+      "translate": "advancements.start_of_calamity.title"
+    },
+    "description": {
+      "translate": "advancements.start_of_calamity.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "start_of_calamity_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "caerula_arbor:sea_trail_grown"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "caerula_arbor:smelt_mor",
+      "caerula_arbor:smoke_mor",
+      "caerula_arbor:campfire_mor",
+      "caerula_arbor:make_caramel_mor",
+      "caerula_arbor:assemble_cake_trail",
+      "caerula_arbor:make_cake_trail",
+      "caerula_arbor:generate_trail",
+      "caerula_arbor:trail_bomb",
+      "caerula_arbor:solided_trail",
+      "caerula_arbor:craft_trail_brick",
+      "caerula_arbor:cut_trail_brick",
+      "caerula_arbor:craft_trail_slab",
+      "caerula_arbor:assemble_trail_slab",
+      "caerula_arbor:craft_trail_stair",
+      "caerula_arbor:cut_trail_stair",
+      "caerula_arbor:craft_trail_plate",
+      "caerula_arbor:craft_trail_button",
+      "caerula_arbor:cut_trail_slab",
+      "caerula_arbor:craft_trail_axe",
+      "caerula_arbor:craft_trail_sword",
+      "caerula_arbor:craft_trailrite",
+      "caerula_arbor:assemble_trailrite",
+      "caerula_arbor:dessemble_trailrite",
+      "caerula_arbor:cur_trail_wall",
+      "caerula_arbor:stripped_log_plank",
+      "caerula_arbor:log_to_wood",
+      "caerula_arbor:strip_log_to_wood",
+      "caerula_arbor:new_tide_core",
+      "caerula_arbor:craft_enderina_core",
+      "caerula_arbor:moist_crystal",
+      "caerula_arbor:craft_isharmla_milk",
+      "caerula_arbor:craft_biscuit_nethersea",
+      "caerula_arbor:craft_biscuit_caramel",
+      "caerula_arbor:craft_biscuit_isharmla",
+      "caerula_arbor:craft_biscuit_mizuki",
+      "caerula_arbor:pool_of_creation",
+      "caerula_arbor:cook_oceanfibre",
+      "caerula_arbor:cook_cell",
+      "caerula_arbor:cook_celll",
+      "caerula_arbor:cook_peduncle",
+      "caerula_arbor:cookfakeegg",
+      "caerula_arbor:cook_fish",
+      "caerula_arbor:cook_claw",
+      "caerula_arbor:assemble_cooked_fibre",
+      "caerula_arbor:dessemble_cooked_fibre",
+      "caerula_arbor:cook_block_fibre",
+      "caerula_arbor:craft_cooked_kebab",
+      "caerula_arbor:cooked_kebab",
+      "caerula_arbor:cook_cookie",
+      "caerula_arbor:cook_chest",
+      "caerula_arbor:smoke_cookie",
+      "caerula_arbor:campfire_cookie",
+      "caerula_arbor:nethersea_boat",
+      "caerula_arbor:craft_chest_nethersea_boat",
+      "caerula_arbor:meat_rice_dumpling",
+      "caerula_arbor:caramel_rice_dumpling",
+      "caerula_arbor:huge_ball",
+      "caerula_arbor:craft_noodle",
+      "caerula_arbor:penduncle_noodle",
+      "caerula_arbor:mushroom_noodle",
+      "caerula_arbor:potato_noodle",
+      "caerula_arbor:nethersea_rice",
+      "caerula_arbor:peduncle_rice",
+      "caerula_arbor:potato_chip",
+      "caerula_arbor:wrap_chip",
+      "caerula_arbor:craft_french_fries",
+      "caerula_arbor:cell_jelly",
+      "caerula_arbor:craft_bread",
+      "caerula_arbor:caramel_bread",
+      "caerula_arbor:peduncle_bread"
+    ]
+  },
+  "parent": "caerula_arbor:encounter_from_the_ocean"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caerula_arbor:block/tame_sea_handbow"
+    },
+    "facing=east": {
+      "model": "caerula_arbor:block/tame_sea_handbow",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "caerula_arbor:block/tame_sea_handbow",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caerula_arbor:block/tame_sea_handbow",
+      "y": 270
+    }
+  }
+}

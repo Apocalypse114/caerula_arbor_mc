@@ -1,0 +1,144 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"default": {
+			"animation_length": 0.5,
+			"bones": {
+				"branch": {
+					"scale": {
+						"vector": [0.875, 0.875, 0.875]
+					}
+				},
+				"branch2": {
+					"scale": {
+						"vector": [0.8, 0.8, 0.8]
+					}
+				},
+				"branch3": {
+					"scale": {
+						"vector": [0.875, 0.875, 0.875]
+					}
+				},
+				"branch4": {
+					"scale": {
+						"vector": [0.875, 0.875, 0.875]
+					}
+				}
+			}
+		},
+		"die": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"all": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.375": {
+							"vector": [0, 2, 0],
+							"easing": "easeOutSine"
+						},
+						"1.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInSine"
+						}
+					}
+				},
+				"branch": {
+					"scale": {
+						"vector": [0.875, 0.875, 0.875]
+					}
+				},
+				"branch2": {
+					"scale": {
+						"vector": [0.8, 0.8, 0.8]
+					}
+				},
+				"branch3": {
+					"scale": {
+						"vector": [0.875, 0.875, 0.875]
+					}
+				},
+				"branch4": {
+					"scale": {
+						"vector": [0.875, 0.875, 0.875]
+					}
+				},
+				"body": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.375": {
+							"vector": [1.025, 1.125, 1.025],
+							"easing": "easeOutSine"
+						},
+						"1.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInSine"
+						}
+					}
+				}
+			}
+		},
+		"idle": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"all": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -1.25]
+						},
+						"0.25": {
+							"vector": [0, 0, -2.5],
+							"easing": "easeOutSine"
+						},
+						"1.0": {
+							"vector": [0, 0, 2.5],
+							"easing": "easeInOutSine"
+						},
+						"1.5": {
+							"vector": [0, 0, -1.25],
+							"easing": "easeInSine"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, 2, 0],
+							"easing": "easeInOutSine"
+						},
+						"1.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeInOutSine"
+						}
+					}
+				},
+				"branch": {
+					"scale": {
+						"vector": [0.875, 0.875, 0.875]
+					}
+				},
+				"branch2": {
+					"scale": {
+						"vector": [0.8, 0.8, 0.8]
+					}
+				},
+				"branch3": {
+					"scale": {
+						"vector": [0.875, 0.875, 0.875]
+					}
+				},
+				"branch4": {
+					"scale": {
+						"vector": [0.875, 0.875, 0.875]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "item": "caerula_arbor:item_slider_ball"
+    },
+    "c": {
+      "item": "caerula_arbor:phloem_block"
+    }
+  },
+  "result": {
+    "item": "caerula_arbor:item_slider_ball_huge",
+    "count": 1
+  }
+}

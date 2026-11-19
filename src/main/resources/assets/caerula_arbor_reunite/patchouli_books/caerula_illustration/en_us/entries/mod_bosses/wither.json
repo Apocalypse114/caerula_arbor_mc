@@ -1,0 +1,47 @@
+{
+  "name": "寂海枯灵",
+  "icon": "caerula_arbor:oceanized_wither_spawnegg",
+  "category": "caerula_arbor:mod_bosses",
+  "read_by_default": true,
+  "sortnum": 24,
+  "pages": [
+    {
+      "type": "image",
+      "title": "寂海枯灵",
+      "border": true,
+      "images": [
+        "caerula_arbor:patchouli_books/image_sets/wither.png",
+        "caerula_arbor:patchouli_books/image_sets/witheria.png"
+      ],
+      "text": "$(o)溟痕与灵魂沙中的魂魄产生了交集……$()"
+    },
+    {
+      "type": "text",
+      "title": "召唤",
+      "text": "与凋灵类似，但灵魂沙更换为溟魂沙。溟魂沙由溟痕同化灵魂沙而得。"
+    },
+    {
+      "type": "text",
+      "title": "寂海枯灵",
+      "text": " · 生理耐受：卓越$(br) · 进攻强度：天灾$(br) · 机动：标准$(br) · 物种特性：一次发射多枚凋灵之首，且会额外造成魔法伤害。$(br)每秒额外对有凋灵效果的目标造成伤害$(br)半血后进行一次召唤、属性提升且免疫弹射物，死亡后进入第二阶段。$(br) · 物种技能：$(br)【枯法·落英缤纷】在周围落下大量凋灵之首。"
+    },
+    {
+      "type": "text",
+      "title": "薇瑟蕾雅，“寂海”",
+      "text": " · 生理耐受：卓越$(br) · 进攻强度：天灾$(br) · 机动：优良$(br) · 物种特性：第二阶段。与一阶段类似，但改为范围近战攻击。攻击造成巨量伤害和神经损伤。$(br)一段时间未发现目标后则自动消失。$(br) · 物种技能：$(br)【枯法·万花筒】向四周散射大量凋灵之首，并追踪敌人发动累计三次斩击。"
+    },
+    {
+      "type": "text",
+      "title": "击杀建议",
+      "text": "确保自己有足够的抗性或较好的盾牌，以承受猛烈的攻击。$(br)两个阶段均会掉落受潮的下界之星，第二个阶段相比第一阶段更为危险，可以选择暂时不挑战。"
+    },
+    {
+      "type": "relations",
+      "title": "相关链接",
+      "text": "本条目提到的其它概念链接如上",
+      "entries": [
+        "caerula_arbor:tutorial/block_convert"
+      ]
+    }
+  ]
+}
